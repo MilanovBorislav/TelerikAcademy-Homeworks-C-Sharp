@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_01_DigitsCount", "Task_01_DigitsCount\Task_01_DigitsCount.csproj", "{ECDF344C-5CA5-4416-B79E-C12622E10351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_03_CountWords", "Task_03_CountWords\Task_03_CountWords.csproj", "{5180806E-A0A9-4F18-A9A5-10A79DE86F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_02_CountOddWords", "Task_02_CountOddWords\Task_02_CountOddWords.csproj", "{4460F4CA-5E46-4883-A7B6-6F2CBDBDF50C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_04_HashTableImplementation", "Task_04_HashTableImplementation", "{580D8989-46C8-4566-B3DD-85E344CD2970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableTests", "HashTableTests\HashTableTests.csproj", "{C4CBF1C5-F65F-4E10-9D9B-8058234649A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable.Lib", "HashTable.Lib\HashTable.Lib.csproj", "{7DF80044-825D-46EB-90C4-6061E606C0E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_05_SetImplementation", "Task_05_SetImplementation", "{3647DEEE-8B32-4EB7-B6E4-C1A2CBEBEF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetImplamentation", "SetImplamentation\SetImplamentation.csproj", "{947B4F84-E67B-41AA-9010-EEE7D7D0C3E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDF344C-5CA5-4416-B79E-C12622E10351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDF344C-5CA5-4416-B79E-C12622E10351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDF344C-5CA5-4416-B79E-C12622E10351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDF344C-5CA5-4416-B79E-C12622E10351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5180806E-A0A9-4F18-A9A5-10A79DE86F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5180806E-A0A9-4F18-A9A5-10A79DE86F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5180806E-A0A9-4F18-A9A5-10A79DE86F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5180806E-A0A9-4F18-A9A5-10A79DE86F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4460F4CA-5E46-4883-A7B6-6F2CBDBDF50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4460F4CA-5E46-4883-A7B6-6F2CBDBDF50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4460F4CA-5E46-4883-A7B6-6F2CBDBDF50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4460F4CA-5E46-4883-A7B6-6F2CBDBDF50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CBF1C5-F65F-4E10-9D9B-8058234649A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CBF1C5-F65F-4E10-9D9B-8058234649A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CBF1C5-F65F-4E10-9D9B-8058234649A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CBF1C5-F65F-4E10-9D9B-8058234649A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF80044-825D-46EB-90C4-6061E606C0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF80044-825D-46EB-90C4-6061E606C0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF80044-825D-46EB-90C4-6061E606C0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF80044-825D-46EB-90C4-6061E606C0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947B4F84-E67B-41AA-9010-EEE7D7D0C3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947B4F84-E67B-41AA-9010-EEE7D7D0C3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947B4F84-E67B-41AA-9010-EEE7D7D0C3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947B4F84-E67B-41AA-9010-EEE7D7D0C3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4CBF1C5-F65F-4E10-9D9B-8058234649A2} = {580D8989-46C8-4566-B3DD-85E344CD2970}
+		{7DF80044-825D-46EB-90C4-6061E606C0E9} = {580D8989-46C8-4566-B3DD-85E344CD2970}
+		{947B4F84-E67B-41AA-9010-EEE7D7D0C3E9} = {3647DEEE-8B32-4EB7-B6E4-C1A2CBEBEF78}
+	EndGlobalSection
+EndGlobal
