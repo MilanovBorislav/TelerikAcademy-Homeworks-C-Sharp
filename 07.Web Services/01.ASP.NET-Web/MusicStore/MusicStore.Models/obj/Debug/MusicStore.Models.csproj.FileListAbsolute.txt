@@ -1,0 +1,5 @@
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\bin\Debug\MusicStore.Models.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\bin\Debug\MusicStore.Models.pdb
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\obj\Debug\MusicStore.Models.csprojResolveAssemblyReference.cache
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\obj\Debug\MusicStore.Models.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\obj\Debug\MusicStore.Models.pdb

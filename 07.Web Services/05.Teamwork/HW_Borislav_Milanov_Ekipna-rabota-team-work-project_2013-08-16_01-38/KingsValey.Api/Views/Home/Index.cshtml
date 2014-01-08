@@ -1,0 +1,491 @@
+﻿<div id="body" class="clear-fix">
+    <p id="userInfo" class="clear-fix"></p>
+    <input type="button" value="Leave Game" id="leave-btn" />
+    <div id="login-register">
+        <label for="player-name">Name</label><span>6-15 letters.</span>
+        <input id="player-name" />
+        <label for="player-password">Pass</label><span>6-30 letters.</span>
+        <input id="player-password" type="password" />
+
+        <input type="button" value="Login" id="login-btn" />
+        <input type="button" value="Register" id="register-btn" />
+    </div>
+
+    <div id="game-controlls">
+        <input type="button" value="Join Game" id="join-btn" />
+    </div>
+
+    <table id="ui">
+        <thead></thead>
+        <tfoot></tfoot>
+        <tbody>
+            <tr>
+                <td>
+                    <ul id="white-panel">
+                    </ul>
+                </td>
+                <td>
+                    <p id="central-message"></p>
+                    <div id="game-board">
+                    </div>
+                </td>
+                <td>
+                    <ul id="red-panel">
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        var gameBoard = [
+            [false, false, false, false, false],
+            [false, false, false, false, false],
+            [false, false, false, false, false],
+            [false, false, false, false, false],
+            [false, false, false, false, false]
+        ];
+        $("#central-message").hide();
+        $("#game-controlls").hide();
+        $("#login-register").hide();
+        $("#leave-btn").hide();
+        var isMyTurn = false;
+        var isWhite = false;
+        var rootUrl = "http://kingsvaley.apphb.com/api/";
+
+        var playerSessionKey = localStorage.getItem("kingsvaley-sessionkey");
+
+        function logOut() {
+            localStorage.clear();
+            window.location.reload();
+        };
+
+        if (playerSessionKey) {
+            $("#userInfo").html("Logged in as: <strong>" + localStorage.getItem("kingsvaley-playerName") + "</strong>");
+            $("#userInfo").append('<button onClick="logOut()">Logout</button>');
+            $("#leave-btn").show();
+            httpRequester.getJSON(
+                rootUrl + "game/" + localStorage.getItem("kingsvaley-playerId"),
+                function (data) {
+                    localStorage.setItem("kingsvaley-gameId", data.GameStateModelId);
+                    getPlayers();
+                    recreateGameField(data);
+                    addEvents();
+                    isMyTurn = data.PlayerInMove == localStorage.getItem("kingsvaley-playerId");
+                    isWhite = data.WhitePlayer == localStorage.getItem("kingsvaley-playerId");
+
+                    console.log(isWhite);
+                    console.log(isMyTurn);
+                },
+                function () {
+                    $("#game-controlls").show(1000);
+                }
+                );
+        }
+        else {
+            $("#login-register").show(1000);
+            $("#userInfo").text("Not logged in.");
+
+        }
+
+        function recreateGameField(data) {
+            var figures = JSON.parse(data.GameFigures);
+            SEND_GAMEBOARD_TO_HELL();
+            initCells();
+
+            for (var i = 0; i < figures.length; i++) {
+                var currentFigure = figures[i];
+                $("#" + currentFigure.Y + "" + currentFigure.X).html('<div class="' + (currentFigure.IsKing ? 'king ' : 'soldier ') + (currentFigure.color == 0 ? 'white' : 'red') + '"></div>');
+                gameBoard[currentFigure.Y][currentFigure.X] = true;
+            }
+
+            var bools = '';
+
+            for (var r = 0; r < 5; r++) {
+                for (var c = 0; c < 5; c++) {
+                    bools += gameBoard[r][c] ? " X " : " O ";
+                }
+                bools += "\n";
+            }
+
+            console.log(bools);
+
+            $("#ui").show(1000);
+        }
+
+        $("#ui").hide();
+
+        $("#leave-btn").click(function () {
+            var gameId = localStorage.getItem("kingsvaley-gameId");
+            httpRequester.getJSON(
+                rootUrl + "leave/" + gameId + "?playerId=" + localStorage.getItem("kingsvaley-playerId") + "%sessionKey=" + localStorage.getItem("kingsvaley-sessionkey"),
+                function (data) {
+                    window.location.reload();
+                }
+                );
+        });
+
+        $("#join-btn").click(function () {
+            $(this).val("Waiting for other player...").attr("disabled", "disabled");
+
+            httpRequester.postJSON(rootUrl + "game/" + localStorage.getItem("kingsvaley-playerId") + "?sessionKey=" + localStorage.getItem("kingsvaley-sessionkey"), {},
+                function (data) {
+                }
+                )
+        });
+
+        $("#login-btn").click(function () {
+            httpRequester.postJSON(rootUrl + "login", { Name: $("#player-name").val(), Password: CryptoJS.SHA1($("#player-password").val()).toString() },
+                function (data) {
+                    localStorage.setItem("kingsvaley-sessionkey", data.sessionKey);
+                    localStorage.setItem("kingsvaley-playerName", $("#player-name").val());
+                    localStorage.setItem("kingsvaley-playerId", data.playerId);
+                    window.location.reload();
+                }
+                )
+        });
+
+        function getPlayers() {
+            var gameId = localStorage.getItem("kingsvaley-gameId");
+            httpRequester.getJSON(
+                rootUrl + "players/" + gameId,
+                function (data) {
+                    console.log("PLAYERS");
+                    console.log(data);
+
+                    var whitePlayer;
+                    var redPlayer;
+
+                    if (data[0].PlayerId == localStorage.getItem("kingsvaley-playerId") && isWhite) {
+                        whitePlayer = data[0];
+                        redPlayer = data[1];
+                    }
+                    else {
+                        whitePlayer = data[1];
+                        redPlayer = data[0];
+                    }
+
+                    $("#white-panel").html(buildPlayerInfo(whitePlayer));
+                    $("#red-panel").html(buildPlayerInfo(redPlayer));
+
+                    function buildPlayerInfo(player) {
+                        var playerInfo = "";
+
+                        playerInfo += "<li><h2>" + player.Name + "</h2></li>";
+                        playerInfo += '<li><img src="' + (player.Avatar ? player.Avatar : "http://placehold.it/250x250") + '" class="avatar" /></li>';
+                        playerInfo += '<li><strong>Wins: ' + player.Victories + '</strong></li>';
+                        playerInfo += '<li><strong>Losses: ' + player.Losses + '</strong></li>';
+
+                        return playerInfo;
+                    }
+                }
+                );
+        }
+
+        $("#register-btn").click(function () {
+            httpRequester.postJSON(rootUrl + "players", { Name: $("#player-name").val(), Password: CryptoJS.SHA1($("#player-password").val()).toString() },
+                function (data) {
+                    alert("registered");
+                }
+                )
+        });
+
+        function initGameBoard() {
+            SEND_GAMEBOARD_TO_HELL();
+            initCells();
+
+            for (var i = 0; i < 5; i++) {
+                $("#0" + i).html('<div class="' + (i == 2 ? 'king' : 'soldier') + ' white"></div>');
+                gameBoard[0][i] = true;
+                $("#4" + i).html('<div class="' + (i == 2 ? 'king' : 'soldier') + ' red"></div>');
+                gameBoard[4][i] = true;
+            }
+        }
+
+        initGameBoard();
+
+        function initCells() {
+            var gameCells = '';
+
+            for (var r = 0; r < 5; r++) {
+                for (var c = 0; c < 5; c++) {
+                    gameCells += '<div id="' + r + '' + c + '" class="game-cell"></div>'
+                }
+            }
+            $("#game-board").html(gameCells);
+
+            $("#22").addClass("center-cell");
+
+            setSpecialCells(0, 2);
+            setSpecialCells(1, 1);
+            setSpecialCells(1, 3);
+            setSpecialCells(2, 4);
+            setSpecialCells(2, 0);
+            setSpecialCells(3, 3);
+            setSpecialCells(3, 1);
+            setSpecialCells(4, 2);
+
+            function setSpecialCells(y, x) {
+                $("#" + y + "" + x).addClass("cell-special");
+            }
+        }
+    </script>
+
+    <script>
+
+        function addEvents() {
+            $("#game-board > div").click(function (data) {
+
+                if (!isMyTurn) {
+                    return;
+                }
+
+                var targetColor = $($(this).children()[0]).hasClass("white");
+
+                var isDestination = $(this).hasClass("destination");
+
+                if ((!(isWhite && targetColor) && !isDestination) && isWhite) {
+                    return;
+                }
+                else if (((!isWhite && targetColor) && !isDestination) && !isWhite) {
+                    return;
+                }
+
+                var position = data.currentTarget.id;
+
+                if (isDestination) {
+                    var selected = $(".selected")[0];
+
+                    requestMove({ locationX: selected.id[1], locationY: selected.id[0], destinationX: position[1], destinationY: position[0] });
+
+                    $(".destination").removeClass("destination");
+                    $(".selected").removeClass("selected");
+
+                    return;
+                }
+
+                $(".destination").removeClass("destination");
+                $(".selected").removeClass("selected");
+
+                if ($(this).children().length > 0) {
+                    $(this).addClass("selected");
+
+                    var destinations = availableDestinations(gameBoard, parseInt(position[1]), parseInt(position[0]));
+
+                    for (var i = 0; i < destinations.length; i++) {
+                        $("#" + destinations[i].y + '' + destinations[i].x).addClass("destination");
+                    }
+                }
+            })
+        }
+
+        function requestMove(request) {
+
+            var postData = {
+                PlayerId: localStorage.getItem("kingsvaley-playerId"),
+                LocationX: request.locationX,
+                LocationY: request.locationY,
+                DestinationX: request.destinationX,
+                DestinationY: request.destinationY,
+                SessionKey: localStorage.getItem("kingsvaley-sessionkey")
+            }
+
+            console.log(postData);
+
+            httpRequester.postJSON(
+                rootUrl + "move",
+                postData,
+                function (data) {
+
+                }
+                );
+        }
+
+        function SEND_GAMEBOARD_TO_HELL() {
+            for (var r = 0; r < 5; r++) {
+                for (var c = 0; c < 5; c++) {
+                    gameBoard[r][c] = false;
+                }
+            }
+        }
+
+        function moveFigure(request) {
+            var data = request;
+            var selected = $("#" + data.LocationY + "" + data.LocationX);
+            var figure = selected.html();
+            selected.html("");
+            $("#" + data.DestinationY + "" + data.DestinationX).html(figure);
+
+            gameBoard[data.LocationY][data.LocationX] = false;
+            gameBoard[data.DestinationY][data.DestinationX] = true;
+        }
+
+        function availableDestinations(gameBoard, x, y) {
+            var availableDestinationsArr = [];
+
+            var row = y;
+            var col = x;
+            var GAMEFIELD_SIZE = 5;
+
+            // UP
+            while (row > 0 && !gameBoard[row - 1][col]) {
+                row--;
+            }
+
+            if (row != y) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            row = y;
+
+            // DOWN
+            while (row < GAMEFIELD_SIZE - 1 && !gameBoard[row + 1][col]) {
+                row++;
+            }
+
+            if (row != y) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            row = y;
+
+            // LEFT
+            while (col > 0 && !gameBoard[row][col - 1]) {
+                col--;
+            }
+
+            if (col != x) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            col = x;
+
+            // RIGHT
+            while (col < GAMEFIELD_SIZE - 1 && !gameBoard[row][col + 1]) {
+                col++;
+            }
+
+            if (col != x) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            col = x;
+
+            // TOP LEFT
+            while (row > 0 && col > 0 && !gameBoard[row - 1][col - 1]) {
+                row--;
+                col--;
+            }
+
+            if (row != y && col != x) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            row = y;
+            col = x;
+
+            // TOP RIGHT
+            while (row > 0 && col < GAMEFIELD_SIZE - 1 && !gameBoard[row - 1][col + 1]) {
+                row--;
+                col++;
+            }
+
+            if (row != y && col != x) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            row = y;
+            col = x;
+
+            // DOWN LEFT
+            while (row < GAMEFIELD_SIZE - 1 && col > 0 && !gameBoard[row + 1][col - 1]) {
+                row++;
+                col--;
+            }
+
+            if (row != y && col != x) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            row = y;
+            col = x;
+
+            // DOWN RIGHT
+            while (row < GAMEFIELD_SIZE - 1 && col < GAMEFIELD_SIZE - 1 && !gameBoard[row + 1][col + 1]) {
+                row++;
+                col++;
+            }
+
+            if (row != y && col != x) {
+                availableDestinationsArr.push({ x: col, y: row });
+            }
+
+            return availableDestinationsArr;
+        }
+    </script>
+
+    <script>
+        (function () {
+            console.log("CHANNEL");
+            var channel = "channel-" + localStorage.getItem("kingsvaley-playerId");
+            console.log(channel);
+            PUBNUB.subscribe({
+                channel: channel,
+                callback: function (data) {
+
+                    if (data.startGame) {
+                        $("#join-btn").val("Join Game").removeAttr("disabled");
+                        $("#ui").show(1000);
+                        $("#game-controlls").hide(1000);
+                        localStorage.setItem("kingsvaley-gameId", data.gameId);
+                        getPlayers();
+                        var id = localStorage.getItem("kingsvaley-playerId");
+                        var playerInTurn = data["playerInTurn"];
+                        isMyTurn = id == playerInTurn;
+                        isWhite = isMyTurn;
+
+                        initGameBoard();
+                        addEvents();
+                    }
+                    else if (data.moveFigure) {
+
+                        var serverData = data.moveRequest;
+
+                        moveFigure(serverData);
+
+                        if (isMyTurn) {
+                            isMyTurn = false;
+                        }
+                        else {
+                            isMyTurn = true;
+                        }
+                    }
+                    else if (data.gameEnded) {
+                        $("#leave-btn").hide();
+                        $("#ui").hide(1000);
+                        $("#game-controlls").show(1000);
+                        localStorage.setItem("kingsvaley-gameId", null);
+                        SEND_GAMEBOARD_TO_HELL();
+
+                        if ((data.winner == 0 && isWhite) || (data.winner == 1 && !isWhite)) {
+                            $("#central-message").show(300).text("You won!");
+                            setTimeout(function () {
+                                $("#central-message").hide(1000);
+                            }, 2000);
+                        }
+                        else {
+                            $("#central-message").show(300).text("You lost!");
+                            setTimeout(function () {
+                                $("#central-message").hide(1000);
+                            }, 2000);
+                        }
+                    }
+                    else if (gameTerminated) {
+                        alert("Game was terminated by: " + data.terminator);
+                        window.location.reload();
+                    }
+                }
+            });
+        })();
+    </script>
+</div>

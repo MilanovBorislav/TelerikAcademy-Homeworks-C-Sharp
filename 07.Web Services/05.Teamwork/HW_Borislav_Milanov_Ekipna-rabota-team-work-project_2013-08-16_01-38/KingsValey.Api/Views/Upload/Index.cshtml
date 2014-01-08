@@ -1,0 +1,29 @@
+﻿@using Kendo.Mvc.UI
+
+<div class="configuration k-widget k-header" style="width: 300px">
+    <span class="infoHead">Information</span>
+    <p>
+        Accepted uploads are up to 1MB and with the extensions .jpg .png
+    </p>
+</div>
+@*<div style="width: 45%">
+    <div class="demo-section">
+        @(Html.Kendo().Upload()
+            .Name("files")
+            .Async(a => a
+                .Save("Save", "Upload")
+                //.Remove("Remove", "Upload")
+                .AutoUpload(true)
+            )
+        )
+    </div>
+</div>*@
+
+<div style="width: 45%">
+    <div class="demo-section">
+        <input id="files" name="files" type="file" />
+        <script>
+            jQuery(function () { jQuery("#files").kendoUpload({ "async": { "saveUrl": "/Upload/Save?playerName=" + localStorage.getItem("kingsvaley-playerName"), "autoUpload": true } }); });
+        </script>
+    </div>
+</div>

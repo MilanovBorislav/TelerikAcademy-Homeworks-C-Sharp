@@ -1,0 +1,10 @@
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\MusicStore.Data.dll.config
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\MusicStore.Data.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\MusicStore.Data.pdb
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\EntityFramework.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\MusicStore.Models.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\MusicStore.Models.pdb
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\bin\Debug\EntityFramework.xml
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\obj\Debug\MusicStore.Data.csprojResolveAssemblyReference.cache
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\obj\Debug\MusicStore.Data.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Data\obj\Debug\MusicStore.Data.pdb

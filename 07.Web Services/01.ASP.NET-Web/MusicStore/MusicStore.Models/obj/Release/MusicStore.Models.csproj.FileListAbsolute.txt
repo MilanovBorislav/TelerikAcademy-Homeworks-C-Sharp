@@ -1,0 +1,4 @@
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\bin\Release\MusicStore.Models.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\bin\Release\MusicStore.Models.pdb
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\obj\Release\MusicStore.Models.dll
+C:\Users\borislav\Documents\GitHub\MusicStore\MusicStore.Models\obj\Release\MusicStore.Models.pdb

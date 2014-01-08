@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingsValey.Api", "KingsValey.Api\KingsValey.Api.csproj", "{4A940B99-2486-425E-A69D-22858FBFA7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingsValey.Models", "KingsValey.Models\KingsValey.Models.csproj", "{929FFA19-7CA8-401A-A874-21F97F8991D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingsValey.Context", "KingsValey.Context\KingsValey.Context.csproj", "{320D720A-55FC-422E-9951-8180963C4B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingsValey.ExternalServices.PubNub", "KingsValey.ExternalServices.PubNub\KingsValey.ExternalServices.PubNub.csproj", "{A6760FA6-078E-4C9D-B073-702FEC7B295B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7C850836-F2A8-4315-B573-008EEC8DBB05}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingsValey.ExternalServices.DropBox", "KingsValey.ExternalServices.DropBox\KingsValey.ExternalServices.DropBox.csproj", "{E0C145C5-F7E7-4EF5-8329-53E41EB42516}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs34
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KingsValey.Api\\KingsValey.Api.csproj
+		SccProjectName1 = KingsValey.Api
+		SccLocalPath1 = KingsValey.Api
+		SccProjectUniqueName2 = KingsValey.Models\\KingsValey.Models.csproj
+		SccProjectName2 = KingsValey.Models
+		SccLocalPath2 = KingsValey.Models
+		SccProjectUniqueName3 = KingsValey.Context\\KingsValey.Context.csproj
+		SccProjectName3 = KingsValey.Context
+		SccLocalPath3 = KingsValey.Context
+		SccProjectUniqueName4 = KingsValey.ExternalServices.PubNub\\KingsValey.ExternalServices.PubNub.csproj
+		SccProjectName4 = KingsValey.ExternalServices.PubNub
+		SccLocalPath4 = KingsValey.ExternalServices.PubNub
+		SccProjectUniqueName5 = KingsValey.ExternalServices.DropBox\\KingsValey.ExternalServices.DropBox.csproj
+		SccProjectName5 = KingsValey.ExternalServices.DropBox
+		SccLocalPath5 = KingsValey.ExternalServices.DropBox
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A940B99-2486-425E-A69D-22858FBFA7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A940B99-2486-425E-A69D-22858FBFA7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A940B99-2486-425E-A69D-22858FBFA7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A940B99-2486-425E-A69D-22858FBFA7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929FFA19-7CA8-401A-A874-21F97F8991D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929FFA19-7CA8-401A-A874-21F97F8991D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929FFA19-7CA8-401A-A874-21F97F8991D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929FFA19-7CA8-401A-A874-21F97F8991D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320D720A-55FC-422E-9951-8180963C4B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320D720A-55FC-422E-9951-8180963C4B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320D720A-55FC-422E-9951-8180963C4B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320D720A-55FC-422E-9951-8180963C4B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6760FA6-078E-4C9D-B073-702FEC7B295B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6760FA6-078E-4C9D-B073-702FEC7B295B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6760FA6-078E-4C9D-B073-702FEC7B295B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6760FA6-078E-4C9D-B073-702FEC7B295B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C145C5-F7E7-4EF5-8329-53E41EB42516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C145C5-F7E7-4EF5-8329-53E41EB42516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C145C5-F7E7-4EF5-8329-53E41EB42516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C145C5-F7E7-4EF5-8329-53E41EB42516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
