@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deviders", "Deviders\Deviders.csproj", "{13E4A666-990F-4CAC-A94F-0AAC0D2B4985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passwords", "Passwords\Passwords.csproj", "{6068A78D-66D6-404C-950C-EDA6B690D2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceOfColorBalls", "SequenceOfColorBalls\SequenceOfColorBalls.csproj", "{6B308E36-AABD-4B18-B144-51212F8364F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13E4A666-990F-4CAC-A94F-0AAC0D2B4985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E4A666-990F-4CAC-A94F-0AAC0D2B4985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E4A666-990F-4CAC-A94F-0AAC0D2B4985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E4A666-990F-4CAC-A94F-0AAC0D2B4985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6068A78D-66D6-404C-950C-EDA6B690D2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6068A78D-66D6-404C-950C-EDA6B690D2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6068A78D-66D6-404C-950C-EDA6B690D2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6068A78D-66D6-404C-950C-EDA6B690D2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B308E36-AABD-4B18-B144-51212F8364F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B308E36-AABD-4B18-B144-51212F8364F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B308E36-AABD-4B18-B144-51212F8364F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B308E36-AABD-4B18-B144-51212F8364F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
