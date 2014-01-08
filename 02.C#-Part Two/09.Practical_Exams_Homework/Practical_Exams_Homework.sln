@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D Slices", "3D Slices\3D Slices.csproj", "{C04EA4B0-3A3A-4F25-87F2-CC2D5C2A27B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHP_Variables", "PHP_Variables\PHP_Variables.csproj", "{8F914FF1-57DE-4774-AD7C-24363ADDD119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guitar", "Guitar\Guitar.csproj", "{22337B16-CA13-4595-AE1B-1DF43394C6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tubes", "Tubes\Tubes.csproj", "{C4B4E277-8A3F-4148-8E8D-2BE9E5201866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04EA4B0-3A3A-4F25-87F2-CC2D5C2A27B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04EA4B0-3A3A-4F25-87F2-CC2D5C2A27B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04EA4B0-3A3A-4F25-87F2-CC2D5C2A27B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04EA4B0-3A3A-4F25-87F2-CC2D5C2A27B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F914FF1-57DE-4774-AD7C-24363ADDD119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F914FF1-57DE-4774-AD7C-24363ADDD119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F914FF1-57DE-4774-AD7C-24363ADDD119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F914FF1-57DE-4774-AD7C-24363ADDD119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22337B16-CA13-4595-AE1B-1DF43394C6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22337B16-CA13-4595-AE1B-1DF43394C6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22337B16-CA13-4595-AE1B-1DF43394C6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22337B16-CA13-4595-AE1B-1DF43394C6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B4E277-8A3F-4148-8E8D-2BE9E5201866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B4E277-8A3F-4148-8E8D-2BE9E5201866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B4E277-8A3F-4148-8E8D-2BE9E5201866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B4E277-8A3F-4148-8E8D-2BE9E5201866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<files>
+	<file name="11-01-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>25aca74047784a868d5d6030f9f67d2178c6c3ea41df56de0890fda0a26b4407c53616d2</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>a4246f1d315af43d9a887cf0663c0dda</ed2khash>
+		<md5>a3d232bca3c2683962384bda10df17e1</md5>
+		<fps>15.00</fps>
+		<title>Lecture 1: Intro (Real player)</title>
+		<sha1>71dc298b96bb6d40adfd57cfc2b520f62abf2985</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-02-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>b455faf91e5a59efade0b51e3d080bd8b29878b9e6f84e34cb6a81b1eeaf22a7993fb145</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>fe3eec2d5edcc030e4e5506bd721e996</ed2khash>
+		<md5>ef5054ceedb14480e780857b1d5fd59a</md5>
+		<fps>15.00</fps>
+		<title>Lecture 2: Boolean Algebra (Real player)</title>
+		<sha1>d5166619d97c9d79d7c293bd12c5ee99f8eb2c54</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-03-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>706922592ad3cf4dc9683915a3db369719b9237286a0360e62250b92b44bbc05615d639f</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>0819116f00d8b977f0a6c63f88c83146</ed2khash>
+		<md5>182f5f4e8c76a78e65347b6fae06f571</md5>
+		<fps>15.00</fps>
+		<title>Lecture 3: More logic (Real player)</title>
+		<sha1>46fb156cd6e50c7c3b6309e61d4fb8a3cc7ea9e9</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-06-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>fa128e1ff1bc21548ff0479c33c90116c78bdbc9d9bd0df001acb2a1c37ca9db0c573375</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>d95494cf65109726ce40b38785934de4</ed2khash>
+		<md5>8b35ad4ba14db88a3acd750f4994ab09</md5>
+		<fps>15.00</fps>
+		<title>Lecture 4: Sets (Real player)</title>
+		<sha1>3d06431490126b2e51acaafcba292a218d586db3</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-07-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>ca96905a71f12efbfae94628dfa8dbd07ad5acd9f4f6f23e48b5ab570e779030691420d3</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>b3017997ef9694fc34602f247ebc9b83</ed2khash>
+		<md5>faafeb76d08860aaa77f2f8ea9a2dd78</md5>
+		<fps>15.00</fps>
+		<title>Lecture 5: Diagonalization (Real player)</title>
+		<sha1>b9738a3e7fad5d1d127e92ab7ee64965ce5229de</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-08-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>cbbfa925616e7c6c75c10a2cb84be52ebf9dbe1adab3516762b24eacacada6887b4aca2a</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>8536e9f72b3cae5c245498bad7929aa6</ed2khash>
+		<md5>6013b093d04fa99bfa27688546bdda50</md5>
+		<fps>15.00</fps>
+		<title>Lecture 6: Basic arithmetic (Real player)</title>
+		<sha1>832fe927e7f7d87a4bdbafe9173a01d0c0bed680</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-09-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>c78346a2607583ec3a79ab51c16dd3a8b8573303f9a5bec29709790c78951419f40896f7</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>f43b666d17cf8304ab1261fd458d75d8</ed2khash>
+		<md5>66ec1899ab558fdab17b8351dd51bd63</md5>
+		<fps>15.00</fps>
+		<title>Lecture 7: Chinese rings puzzle (Real player)</title>
+		<sha1>55aaedfce84204f8b7307ee9eb6409225835c8ef</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-10-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>098b5deee84ad8be3dcb05d4d140677f14716072f36faa88a35f346624bf84552110c1ff</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>08cb3e5861391ec9719feae758619f7a</ed2khash>
+		<md5>3c504acd80dd1ddd88096b5adc316e74</md5>
+		<fps>15.00</fps>
+		<title>Lecture 8: Solving recurrence equations 1 (Real player)</title>
+		<sha1>68c19967e300e4d7762402b977504b91fb680c5b</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-13-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>386486fe3dfa1cabe5acbfda48f8b44e0b0df789faef8306b2fe82bcf2bb2d8691fd59f2</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>1cd17af45479600d1183b939b2bfa84e</ed2khash>
+		<md5>1f20a2209095247e36fc75602ae51ea5</md5>
+		<fps>15.00</fps>
+		<title>Lecture 9: Solving recurrence equations 2 (Real player)</title>
+		<sha1>a2f5c4cd7eb584604686e692d1477b78efcb9fc3</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-14-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>c5d69f33cd5f34299fdb9c6f08932da085e5c9426c23ef510fd071c57f159282ee6c58b0</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>7a41e2adff3d1eeebc9ac1dfe8fea910</ed2khash>
+		<md5>577e5baa0ee70be20f3624689784b374</md5>
+		<fps>15.00</fps>
+		<title>Lecture 10: Mathematical induction (Real player)</title>
+		<sha1>7a5b1b71e8751b00a227b8edb77189a010314d1f</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-15-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>84c82f903c9c4cedd5558578c109b49888f8c37658fb66547487fccfdcf12e315de0ee3f</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>ac1f3fcbdc4bf377e49f9a11f3d927bc</ed2khash>
+		<md5>2e7afbfe41c7784d0af72ad745b02e29</md5>
+		<fps>15.00</fps>
+		<title>Lecture 11: Combinations and permutations (Real player)</title>
+		<sha1>62239b15d7c2f1ea5580d57f688cf5200297fe13</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-16-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>95dec771be12543e4ea8dac06b13710bccee854498c319ecd73b423e0e2bef87b77ce0c1</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>a7964da8740f18f0c9525f0866878697</ed2khash>
+		<md5>948f205c09ba53a7fdda9c04e8b871ea</md5>
+		<fps>15.00</fps>
+		<title>Lecture 12: Counting Problems I (Real player)</title>
+		<sha1>fd05a8f3a8af051a6ffe583353823e7e7b2e1a0b</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-17-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>1c122eb493dec9477623feb506c53cdffea6b8052c308970550e365900e396a7c0b72623</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>438e5e4db4aec4d4bafb647d57fcfc43</ed2khash>
+		<md5>e583c6409cd0b1a6bb17a0e8fc9845ad</md5>
+		<fps>15.00</fps>
+		<title>Lecture 13: Counting Problems II (Real player)</title>
+		<sha1>84f99b55f1324ee2a86f6c65d09820dfa06e26e5</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-20-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>0d7b6ad9c528e598b084e6f5eb079336f46f7e3dd3ddcfd58c893bff8b5b8249736144c5</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>89fbb715dd3e4243251e282f68377c05</ed2khash>
+		<md5>ca07a3bc99e6f979f185a34f3e5f10e2</md5>
+		<fps>15.00</fps>
+		<title>Lecture 14: Counting Problems III (Real player)</title>
+		<sha1>e400c57801b93810eea5ccf1db8c6be6b8c24df8</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-21-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>edba77d0f51aad92cd6595f7449bb6c97186e752feaeb4f3a012b520e917ed1fa5919b9a</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>c64d701342fd44f62256c4524c2a7d3f</ed2khash>
+		<md5>09e45d1137eccd364850c94cbb21db0b</md5>
+		<fps>15.00</fps>
+		<title>Lecture 15: Counting Problems IV (Real player)</title>
+		<sha1>07bd0556913f05e3fd89cfa4df0ae9730ffb00bd</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-22-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>7def2721b21b5e21f83ebb2a1c3650fa31119032b87466aedc53648d504c8201917f1357</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>b58402823f7d926c29514db9abd31655</ed2khash>
+		<md5>2fd1631d65ab123a5c3abc713e3d1a83</md5>
+		<fps>15.00</fps>
+		<title>Lecture 16: Pigeonhole Principle (Real player)</title>
+		<sha1>5aeb3f247f040ce76b6d87e47458a513683e677f</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-26-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>4163aa5092e4c8c89345e4735f191a377b3793fb62c56d2cb67b02c707144fdbc698a601</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>b75517cd82cd67b8d473e104ee6bb1e7</ed2khash>
+		<md5>bfde2fc42fc7927bf7201e76f0e845d1</md5>
+		<fps>15.00</fps>
+		<title>Lecture 17: Equivalence Relations (Real player)</title>
+		<sha1>151c4ea24d6a7457768cdd94e111aef8c5aece74</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-27-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>d655034ab4f48eb76fa47ae1e8f72c00c66b1e1a0b7796fd58f78f4877c482301317a53b</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>bbaeddaa3918f8278d2004b7155aa2a0</ed2khash>
+		<md5>209119bda99b2ee7da1492f209632fdc</md5>
+		<fps>15.00</fps>
+		<title>Lecture 18: Euclid's Algorithm (Real player)</title>
+		<sha1>5d8d37c52f2d4439e9c85e5eaf947e56ef8b45a4</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-27-00Reci.rm" source="original">
+		<height>320</height>
+		<kzhash>214154c0c9a393311605e624ac8d54a39f2e138944167fa2f1ada926d9044bd70d0c9faa</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>c3c1721bbb3313a93ff0a6bc9aaa0790</ed2khash>
+		<md5>c2ccaec2ef136cbf18461ace33bae6a8</md5>
+		<fps>15.00</fps>
+		<title>Lecture 19: Recitation (Real player)</title>
+		<sha1>dd56214270e372a4d1ddc9dade379c5e188d8eef</sha1>
+		<width>320</width>
+	</file>
+	<file name="11-28-00Lect.rm" source="original">
+		<height>320</height>
+		<kzhash>baf301bdff7a2146796de82f1c257377d26101f155fd7aa4fd7899803159acbeab683a1e</kzhash>
+		<format>MPEG4</format>
+		<ed2khash>07f3e3441f7ba872358c2b7687c33bca</ed2khash>
+		<md5>c97d15a338c2d1e1e429b21481264089</md5>
+		<fps>15.00</fps>
+		<title>Lecture 20: Cryptography (Real player)</title>
+		<sha1>b1bc027cf2a186b0dc5ace40d44fa72d5512c9aa</sha1>
+		<width>320</width>
+	</file>
+	<file name="arsdigita_02_discrete_math_files.xml" source="metadata">
+		<format>Files Metadata</format>
+		<ed2khash>ce56c17c96e2676f5eee1ef248817fe4</ed2khash>
+		<md5>8768738bf2d4cc93fb4b6c673e096e96</md5>
+		<kzhash>682359289918eedc9ac529e7165eda3fceaaffffff9fce0a82a519d1d13514af6922bccd</kzhash>
+		<sha1>d323c8aa65f43424eb0b31bb845f979390ad2af8</sha1>
+	</file>
+	<file name="arsdigita_02_discrete_math_meta.xml" source="metadata">
+		<format>Item Metadata</format>
+		<ed2khash>bfac3f2777b98d84def4686a70e99f17</ed2khash>
+		<md5>336c66ad4815e9b8c4fc7a73b177fcf8</md5>
+		<kzhash>dcc5cfeff2a101674b22731ef8ca9b063bf9ffff78f24641fd9e9b39a095bc0607ff73a3</kzhash>
+		<sha1>9a2946fefac4dd09692e90738e074bb8fc498310</sha1>
+	</file>
+	<file name="arsdigita_02_discrete_math_reviews.xml" source="metadata">
+		<format>Metadata</format>
+		<md5>bfb73d37c9f598b405b00fe098e1e6de</md5>
+	</file>
+	<file name="course_description" source="original">
+		<format>Text</format>
+		<ed2khash>1ce07ccd98d13a7ff0bba6e09f8a67df</ed2khash>
+		<md5>9aeed793a2ca56a052905d74c6f2e236</md5>
+		<kzhash>9aeed793a2ca56a052905d74c6f2e23650faffff04b40c63815ca69d25ce131af8051460</kzhash>
+		<title>Course Description</title>
+		<sha1>338aa60a8283aae61c2f8fa2b994c9c2db01ac3a</sha1>
+	</file>
+	<file name="useful-links.txt" source="original">
+		<format>Text</format>
+		<ed2khash>9ff4c5e6abd146fd95d1664789463705</ed2khash>
+		<md5>6de830c9f4a11b0d476f7dc86d1d9cb8</md5>
+		<title>Useful Links</title>
+		<kzhash>6de830c9f4a11b0d476f7dc86d1d9cb8defdffff2b511383b985b8b0eeea081770a98491</kzhash>
+		<sha1>12568b8b31dbe686ae2ca92e389be45255a63347</sha1>
+	</file>
+	<file name="exams/Exam_01.doc" source="original">
+		<format>Text</format>
+		<ed2khash>1d065b839a56a75ec2c5029cace62bf9</ed2khash>
+		<md5>30eb620b63607aa819241cdb63908580</md5>
+		<kzhash>30eb620b63607aa819241cdb63908580ff71ffffad1c9b66cb29c018ec38080d0b693685</kzhash>
+		<title>Exam #1 (MS Word)</title>
+		<sha1>1ff4c49415b612c4b97bb6fbda1a80e033409ef9</sha1>
+	</file>
+	<file name="exams/Exam_01.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>9509a581ac5c69ae97e8f54a315b2c9f</ed2khash>
+		<md5>820e31f637aea37dac5886fb60d3dad3</md5>
+		<kzhash>820e31f637aea37dac5886fb60d3dad3d5e9ffffea627a59ed0831a01af0c770c6268b10</kzhash>
+		<title>Exam #1 (PDF)</title>
+		<sha1>c929b7c65010f30769876c1ae5e57e70bae69d54</sha1>
+	</file>
+	<file name="exams/Exam_02.doc" source="original">
+		<format>Text</format>
+		<ed2khash>95d7aa8f330021bbd224633f33853e1f</ed2khash>
+		<md5>373c03707caa1cf36ba92bf92e59f600</md5>
+		<kzhash>373c03707caa1cf36ba92bf92e59f600ff57ffffc48647926fc0100d5fbd375a82f15fa5</kzhash>
+		<title>Exam #2 (MS Word)</title>
+		<sha1>94a50b6fa7bbec3f1d267ffa7e78101d0dca5939</sha1>
+	</file>
+	<file name="exams/Exam_02.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>d3adbbf924458231e9af67a0bdefd7c5</ed2khash>
+		<md5>2db7cfc518b4d543f30e4620368bd704</md5>
+		<kzhash>2db7cfc518b4d543f30e4620368bd70481e9ffffbadea4f21bb64910d3769835dee6940d</kzhash>
+		<title>Exam #2 (PDF)</title>
+		<sha1>3fe2766a9f3a65095d4ae0436dd6dcdee6143f15</sha1>
+	</file>
+	<file name="exams/Exam_03.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>775fb450945b56298f24787401f354ab</ed2khash>
+		<md5>573497f1b78c2668383be35170e7eabe</md5>
+		<kzhash>573497f1b78c2668383be35170e7eabe30eaffffa142536e9809b8d96d51131cf92cfdfb</kzhash>
+		<title>Exam #3 (PDF)</title>
+		<sha1>702fdb216f5f6ca65bb6200692ac9e2726e8efde</sha1>
+	</file>
+	<file name="exams/Final_Exam.doc" source="original">
+		<format>Text</format>
+		<ed2khash>adfdad4ab76fd027e60db345615f2570</ed2khash>
+		<md5>b140734167219b5bcb9b8e1545a18d0b</md5>
+		<kzhash>b140734167219b5bcb9b8e1545a18d0bff31ffffe09ee2186478cca5fa975b3c96db1c07</kzhash>
+		<title>Final Exam (MS Word)</title>
+		<sha1>101a5dda7b82710d3b74467356ba88dc871a7690</sha1>
+	</file>
+	<file name="exams/Final_Exam.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>da6ec53fc217e20874419c2a45bff84c</ed2khash>
+		<md5>59122152b126dce07c740f82b658dae2</md5>
+		<kzhash>59122152b126dce07c740f82b658dae20be6ffffb05fd218d09c6a22e5eca420ab6cadf9</kzhash>
+		<title>Final Exam (PDF)</title>
+		<sha1>d8cb3fbe6fc2a20099af8cec1e8616abe0202f6f</sha1>
+	</file>
+	<file name="handouts/General.doc" source="original">
+		<format>Text</format>
+		<ed2khash>48f14758dc7e25315e256c402acf3b04</ed2khash>
+		<md5>a728681ce26dedb853a551252dc6098d</md5>
+		<title>Handout: Intro (MS Word)</title>
+		<kzhash>a728681ce26dedb853a551252dc6098dff99ffffd381a12c113b00c39a816a2a649483ce</kzhash>
+		<sha1>6cae4084a4264fe3caa5dd418a07ab4e3d288033</sha1>
+	</file>
+	<file name="handouts/Syllabus.doc" source="original">
+		<format>Text</format>
+		<ed2khash>4bc9637f2837ef63fadd154f96f884b0</ed2khash>
+		<md5>09ab7a4478a387b85f0b0cdc1b3a13e6</md5>
+		<title>Syllabus (MS Word)</title>
+		<kzhash>09ab7a4478a387b85f0b0cdc1b3a13e6ff89ffffdc0d86715cd6130d559132a1ffdf0e81</kzhash>
+		<sha1>9c934f3d20c8ea6ee46ff4d560352c0e67c372dd</sha1>
+	</file>
+	<file name="handouts/Syllabus.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>4c9502165ac05b084b5c990f6ae7e8f1</ed2khash>
+		<md5>bc4cbdf2aace899d2330832204f5a5b2</md5>
+		<title>Syllabus (PDF)</title>
+		<kzhash>bc4cbdf2aace899d2330832204f5a5b2c8edfffff6c37174128b278a74286c512700ef0f</kzhash>
+		<sha1>a753f6ada550c6f7ac5130f154251353fad02d8a</sha1>
+	</file>
+	<file name="lect_notes/Lecture_Notes.doc" source="original">
+		<format>Text</format>
+		<ed2khash>42ae17b1891a9cb4c4ea76dca388bf1f</ed2khash>
+		<md5>e1e3930dc7b06b1e3d34b18203be91a9</md5>
+		<title>Lecture Notes (MS Word)</title>
+		<kzhash>e1e3930dc7b06b1e3d34b18203be91a9ff79fbff83b7e1ac1cc652d01ccb9cfb927f051c</kzhash>
+		<sha1>66bb27055c77d8382e1dbcff138be0e991b122c3</sha1>
+	</file>
+	<file name="lect_notes/Lecture_Notes.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>ebb5470bf45dd5d160e5d85d3c493184</ed2khash>
+		<md5>115199a68e3c4ae750b5dfd31f159f5c</md5>
+		<title>Lecture Notes (PDF)</title>
+		<kzhash>c111786d080ff48bc2438a850b29105100340cfe475a9c8865f53aa423e2c701eb9444be</kzhash>
+		<sha1>74d038c93dd6e1949332fc95c9ea35423ff903c5</sha1>
+	</file>
+	<file name="misc/Chinese rings.txt" source="original">
+		<format>Text</format>
+		<md5>977d713e26aca5cd9a6efc077713cc4d</md5>
+		<title>Chinese Rings</title>
+		<sha1>24deadde69d15f8f799a836fa423ce96fbe36d4e</sha1>
+	</file>
+	<file name="misc/DG's puzzle solution.txt" source="original">
+		<format>Text</format>
+		<md5>9c58f1c9eddbcb1aa2d133c98f943049</md5>
+		<title>DG's Puzzle Solution</title>
+		<sha1>48e28ca37d8116a5b54dfe32ca509f6caf48ad65</sha1>
+	</file>
+	<file name="misc/Exams.doc" source="original">
+		<format>Text</format>
+		<ed2khash>cd80366ce2c443b7033b4fcdfbe62580</ed2khash>
+		<md5>85de20477fd52500e097a81ab7cc1bff</md5>
+		<kzhash>85de20477fd52500e097a81ab7cc1bffff97ffff69ae072c13b0a74110dfc86a8c251994</kzhash>
+		<sha1>da0e51675e57f2251287f7ffa4d1716220e112c8</sha1>
+		<title>Exams Info (MS Word)</title>
+	</file>
+	<file name="misc/MCohen.txt" source="original">
+		<format>Text</format>
+		<ed2khash>9b2eb5d7f1439456ea91961bbb870d44</ed2khash>
+		<md5>798a0959a61a5dfcd34a128f67e62c56</md5>
+		<title>MCohen</title>
+		<kzhash>798a0959a61a5dfcd34a128f67e62c5655f9ffff2b31e277059a25960330ec44efdaa7b5</kzhash>
+		<sha1>c225107d237560ddd1f7832211fbc866571b5ad0</sha1>
+	</file>
+	<file name="misc/Misc Pset Problems.doc" source="original">
+		<format>Text</format>
+		<md5>750d9947f72b9c87ee5b8754716db5b9</md5>
+		<title>Pset Problems (MS Word)</title>
+		<sha1>e7d3faa782a91389ecbd49829757c1534ceb48bf</sha1>
+	</file>
+	<file name="misc/More Weighing Puzzle.txt" source="original">
+		<format>Text</format>
+		<md5>f26f708cedfc13210509dfa3b7d36f67</md5>
+		<title>More Weighing Puzzle</title>
+		<sha1>04db7695c53951d14ecadef9c85af56c6b5fa62a</sha1>
+	</file>
+	<file name="misc/Ordered Subsets.txt" source="original">
+		<format>Text</format>
+		<md5>66c4f4419fe31a635f22c5887bfda2f4</md5>
+		<title>Ordered Subsets</title>
+		<sha1>3704831f40a0868baf16799e4f48da2d8508c785</sha1>
+	</file>
+	<file name="misc/Oredred Subsets.txt" source="original">
+		<format>Text</format>
+		<md5>f77aea68e9c070f7ed0b1f2c4869ee91</md5>
+		<title>Ordered Subsets II</title>
+		<sha1>9576b59d1669fab520db76a7867cc79893843f80</sha1>
+	</file>
+	<file name="misc/Pairs in Poker.txt" source="original">
+		<format>Text</format>
+		<md5>b7b9b44b0cfcd191ace3e29ed604f33a</md5>
+		<title>Pairs in Poker</title>
+		<sha1>0e716c4b32444a297ed96c9ba4ce0716f7dbaf55</sha1>
+	</file>
+	<file name="misc/ax+by puzzle.txt" source="original">
+		<format>Text</format>
+		<md5>94852acc39850f489bf3a0cf849b5ed5</md5>
+		<title>AX+By Puzzle</title>
+		<sha1>1064a409d54b46b8043c0640ec5db2db86f2cf8a</sha1>
+	</file>
+	<file name="misc/Card trick/Cardtrick-gen.txt" source="original">
+		<format>Text</format>
+		<md5>c9abdd54219e735f5e4fa6e34835a0ed</md5>
+		<title>Card Trick - Generalizations</title>
+		<sha1>d5763d2e1144a21056dfe5fba86b1befb211e102</sha1>
+	</file>
+	<file name="misc/Card trick/Complete Solution.txt" source="original">
+		<format>Text</format>
+		<md5>a87d2a08986d6a7493ab0516230a358f</md5>
+		<title>Card Trick - Complete Solution</title>
+		<sha1>1ae8290032e166a5e9874ca473b2095a3b90b7ea</sha1>
+	</file>
+	<file name="misc/Card trick/Hall's Theorem Applies.txt" source="original">
+		<format>Text</format>
+		<md5>90e7a8abf089215224391663c2b65b05</md5>
+		<title>Card Trick - Hall's Theorem</title>
+		<sha1>c7691b510369b697c77f2e7a99a6cde8e091a4a5</sha1>
+	</file>
+	<file name="misc/Card trick/Shyam's outline.txt" source="original">
+		<format>Text</format>
+		<md5>cdba61341c1369e54a8b88740daeeb84</md5>
+		<title>Card Trick - Shyam's Outline</title>
+		<sha1>90d89ef9a09a3494c34dc003b170854bebd16529</sha1>
+	</file>
+	<file name="misc/Card trick/Shyam's paln.txt" source="original">
+		<format>Text</format>
+		<md5>71e7ddad76592c0ea8f94631854b70bd</md5>
+		<title>Card Trick - Shyam's Plan</title>
+		<sha1>a6e07bff8c1ef7900e81f99856be9653a6a91923</sha1>
+	</file>
+	<file name="misc/Card trick/Shyam's solution.txt" source="original">
+		<format>Text</format>
+		<md5>2c9f21416ef9efab1c7c9a0ade6fdcff</md5>
+		<title>Card Trick - Shyam's Solution</title>
+		<sha1>321e33657d26b8bce767b69dd9b30d8c4ef15a14</sha1>
+	</file>
+	<file name="misc/Card trick/Weiping for 56.txt" source="original">
+		<format>Text</format>
+		<md5>9429c18aebcb13ecfb88bc7c9ac9967e</md5>
+		<title>Card Trick - Weiping 56</title>
+		<sha1>027e84905fc37bfe445ee0e9176aecea3b746fbc</sha1>
+	</file>
+	<file name="misc/Card trick/Weiping-53.txt" source="original">
+		<format>Text</format>
+		<md5>d98cc2a9209271f7df273c9f03e06f8f</md5>
+		<title>Card Trick - Weiping 53</title>
+		<sha1>8882518a499c890d67f5f0aba9ddd4dd6dc3c467</sha1>
+	</file>
+	<file name="misc/Klein/Klein's Puzzle.txt" source="original">
+		<format>Text</format>
+		<md5>1d153b1b536ec9e1127c28e368eff1a2</md5>
+		<title>Klein's Puzzle</title>
+		<sha1>b64dbab526875b164d9eb0c080af9401fb8a1f2d</sha1>
+	</file>
+	<file name="misc/Klein/Klein's puzzle origin.txt" source="original">
+		<format>Text</format>
+		<md5>241ed4b1b191c5b278fd356f8c5a85c8</md5>
+		<title>Klein's Puzzle - Origin</title>
+		<sha1>b7ec1b130a98a048e5c21aec20b418458dcdedcf</sha1>
+	</file>
+	<file name="misc/Klein/The whole Klein puzzle.txt" source="original">
+		<format>Text</format>
+		<md5>34481e9221dd144375245be53e515d27</md5>
+		<title>Whole Klein Puzzle</title>
+		<sha1>ace59d33c947e6ffdff57f78a9dcb7b2971fc344</sha1>
+	</file>
+	<file name="misc/Klein/Weiping concedes.txt" source="original">
+		<format>Text</format>
+		<md5>a900a41967370011b22ffe6b6514de1f</md5>
+		<title>Weiping Concedes</title>
+		<sha1>02868f503f311c651dace8205e6e7b2c8d55c0d1</sha1>
+	</file>
+	<file name="misc/Klein/Weiping's Solution.txt" source="original">
+		<format>Text</format>
+		<md5>65a05bfe805e95a74251fbd0b8057df0</md5>
+		<title>Weiping's Solution</title>
+		<sha1>51e45a9b93152fcac2710fdaea8be389932c4c27</sha1>
+	</file>
+	<file name="misc/Klein/Weiping's adaptive method.txt" source="original">
+		<format>Text</format>
+		<md5>293bc5093150b1960e240059c22c12fe</md5>
+		<title>Weiping's Adaptive Method</title>
+		<sha1>1529014d56be8a2ec5c2e01b4aa2a8e9057ff2c3</sha1>
+	</file>
+	<file name="misc/bank vault/Bank Vault.txt" source="original">
+		<format>Text</format>
+		<md5>7efe763886186a0a64843c758fcae9fe</md5>
+		<title>Bank Vault</title>
+		<sha1>fcf74243ba56a50ade688f8fc1da627b2b05670e</sha1>
+	</file>
+	<file name="misc/bank vault/Klein's Bank vault.txt" source="original">
+		<format>Text</format>
+		<md5>e7c275df88400c3828e76b9b317b3dcc</md5>
+		<title>Klein's Bank Vault</title>
+		<sha1>0efd34f77339e5362756733582864ce824b5bf28</sha1>
+	</file>
+	<file name="misc/bank vault/More bank.txt" source="original">
+		<format>Text</format>
+		<md5>daf88b2863d4387d0324835c25aa4deb</md5>
+		<title>More Bank</title>
+		<sha1>210940361a1ff58394efb0867ad8245793c289bc</sha1>
+	</file>
+	<file name="misc/bank vault/more bank vault.txt" source="original">
+		<format>Text</format>
+		<md5>7b7c85d0b3ef213d4053c2766dcf6876</md5>
+		<title>More Bank Vault</title>
+		<sha1>2896f28c75520c876f3ff9bd6800da1c7a3354ec</sha1>
+	</file>
+	<file name="psets/Card_Trick_Problem_Set.doc" source="original">
+		<format>Text</format>
+		<ed2khash>04e98df245b5323e644572bd90bf5533</ed2khash>
+		<md5>b940c0e3c73a354700d1cd4ebb53dbf8</md5>
+		<title>Card Trick Problem Set (MS Word)</title>
+		<kzhash>b940c0e3c73a354700d1cd4ebb53dbf8ff7fffff9a583d97ecc3df86cb6a3b8748b617f7</kzhash>
+		<sha1>d21bbb874793665af9ceaada3f223b9e81cae3e3</sha1>
+	</file>
+	<file name="psets/Card_Trick_Problem_Set.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>99f592ba98f8735d9deed1f0a384be63</ed2khash>
+		<md5>9cf1a35fe56d92b4e4c031ebce9b4be7</md5>
+		<title>Card Trick Problem Set (PDF)</title>
+		<kzhash>9cf1a35fe56d92b4e4c031ebce9b4be7f6dcffff9689bfc2bcdd2839cdc07e06889a38a6</kzhash>
+		<sha1>682fa707b024e8c3614a2a87115ccdaf96e39364</sha1>
+	</file>
+	<file name="psets/Card_Trick_Problem_Set_Solutions.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>c6d9e5752bce33355fcdf8b2bd4db421</ed2khash>
+		<md5>64454734a3c9192ffe6e90afc5ed1794</md5>
+		<title>Card Trick Problem Set - Solutions (PDF)</title>
+		<kzhash>64454734a3c9192ffe6e90afc5ed17942648ffff9258943488259ddfa5e06fb1597626bd</kzhash>
+		<sha1>8cc9a9cd088e45035d9108d2b608608857edea5e</sha1>
+	</file>
+	<file name="psets/Card_Trick_Problem_Set_Solutions.scm" source="original">
+		<format>Unknown</format>
+		<ed2khash>24cadc37d94e13201fab7a83d90d633a</ed2khash>
+		<md5>c5123b2bd0df1248062c84a1c11dc363</md5>
+		<title>Card Trick Problem Set - Solutions (Scheme)</title>
+		<kzhash>c5123b2bd0df1248062c84a1c11dc3639fe9ffff24101df62c8d9116eefeef95ec7ef8f0</kzhash>
+		<sha1>08db798b06cbea7d36fc0caab5c2e0eac379dd2a</sha1>
+	</file>
+	<file name="psets/Card_Trick_Problem_Set_Solutions.tex" source="original">
+		<format>Unknown</format>
+		<ed2khash>38bcee0785f95dbce80e7429e0aa46be</ed2khash>
+		<md5>3aab1ad8b09414b4bff136be7fc0f4cc</md5>
+		<title>Card Trick Solutions (Tex)</title>
+		<kzhash>3aab1ad8b09414b4bff136be7fc0f4cc42f0ffff7b6eb237bb3d967b33887a945963e514</kzhash>
+		<sha1>7988eba49050d36ffa0da01ea38887e2ce4deb73</sha1>
+	</file>
+	<file name="psets/Card_Trick_Problem_Set_Solutions_Trial_Data.txt" source="original">
+		<format>Text</format>
+		<ed2khash>6efbad6cf5e3c134ea608daacfe3e715</ed2khash>
+		<md5>2c9f21416ef9efab1c7c9a0ade6fdcff</md5>
+		<title>Card Trick - Solutions Trial Data</title>
+		<kzhash>2c9f21416ef9efab1c7c9a0ade6fdcfff825ffff816da84287affbdedb09845d1a8eaa01</kzhash>
+		<sha1>321e33657d26b8bce767b69dd9b30d8c4ef15a14</sha1>
+	</file>
+	<file name="psets/Problem_Set_01.doc" source="original">
+		<format>Text</format>
+		<ed2khash>339287a5c255c3d2bee8a6dec71bdd85</ed2khash>
+		<md5>311df714685ec42a5356f0b7548484b8</md5>
+		<title>Problem Set #1</title>
+		<kzhash>311df714685ec42a5356f0b7548484b8ff75ffff95b088453af0a1e3b5c8152aa248a803</kzhash>
+		<sha1>ba5450d2787a0617cb9328ee0a20602cc0fe4e56</sha1>
+	</file>
+	<file name="psets/Problem_Set_01.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>dffd994a46a9a89321ceec3d1aa0d547</ed2khash>
+		<md5>8ab34021c21d21528943f9b2e3e6f02e</md5>
+		<title>Problem Set #1 (PDF)</title>
+		<kzhash>8ab34021c21d21528943f9b2e3e6f02e6de6ffff68d0cd9a57ef09934b4b2a304ff523a3</kzhash>
+		<sha1>377d60739d9409c61fa782be63219552114b00b9</sha1>
+	</file>
+	<file name="psets/Problem_Set_01.tex" source="original">
+		<format>Text</format>
+		<ed2khash>ec37446f3d20bc99332d7a3f26ae9bd4</ed2khash>
+		<md5>ff43636275fac793d9b1002f880dffa5</md5>
+		<title>Problem Set #1 (Tex)</title>
+		<kzhash>ff43636275fac793d9b1002f880dffa5d6e6ffff6b9f935c6ba6b654ab3c9313122344ca</kzhash>
+		<sha1>f8e81a8fb1a6c90a6163d18a6f9b902ff6e5653a</sha1>
+	</file>
+	<file name="psets/Problem_Set_01_Solutions.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>0d95d3663eaf672bf2c16ba8d392ad4a</ed2khash>
+		<md5>f99ed38fe081051e9240c4c54f0a3225</md5>
+		<title>Problem Set #1 - Solutions (PDF)</title>
+		<kzhash>f99ed38fe081051e9240c4c54f0a3225e039feffdf37fc4ee6a20764883674872ccc74e6</kzhash>
+		<sha1>8187225f14761601561199376d3d06bc68a5ecad</sha1>
+	</file>
+	<file name="psets/Problem_Set_01_Solutions.tex" source="original">
+		<format>Text</format>
+		<ed2khash>172afeee0e5cf151dc7aef75995f14b2</ed2khash>
+		<md5>826cd8a95a1ac79f4274a9bf302796b5</md5>
+		<title>Problem Set #1 - Solutions [Tex]</title>
+		<kzhash>826cd8a95a1ac79f4274a9bf302796b5b276fffffd2ab440f0f1bbe1b284206b074624e8</kzhash>
+		<sha1>ca861941caa1b1be7592d9d2ed6c5af98571175a</sha1>
+	</file>
+	<file name="psets/Problem_Set_01_Solutions_Code.scm" source="original">
+		<format>Unknown</format>
+		<ed2khash>2759461620c3a2c6487ce61669418a16</ed2khash>
+		<md5>a81ca38f05e45d54b7e13d9ced29830a</md5>
+		<title>Problem Set #1 - Solutions [Scheme]</title>
+		<kzhash>a81ca38f05e45d54b7e13d9ced29830a6ff2ffffd65e47bf64fd1c8afac886d76a5197f5</kzhash>
+		<sha1>c76df8ea7d0f7c34322aa4d39bc945fb0b3eea97</sha1>
+	</file>
+	<file name="psets/Problem_Set_02.doc" source="original">
+		<format>Text</format>
+		<ed2khash>2cb5ef968b29a9343df26ae8a53eba45</ed2khash>
+		<md5>323befdd1a4095948ca07cab71664cd1</md5>
+		<title>Problem Set #2 (MS Word)</title>
+		<kzhash>323befdd1a4095948ca07cab71664cd1ff6dffff545ae2e48fa48813993064d80a2c5ce3</kzhash>
+		<sha1>a9b00c93ae35a110eef462f8e5e7dc8d6bf1de07</sha1>
+	</file>
+	<file name="psets/Problem_Set_02.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>07e929d56d65474b05b07b2c2295ea5f</ed2khash>
+		<md5>3b712d34c3b522ad674927b5301d1c38</md5>
+		<title>Problem Set #2 (PDF)</title>
+		<kzhash>3b712d34c3b522ad674927b5301d1c38dbdfffffabb8304b1912ad57156713d459048053</kzhash>
+		<sha1>aeb57de887ce61d892c7dbaf3643746b36e8ce7a</sha1>
+	</file>
+	<file name="psets/Problem_Set_02.tex" source="original">
+		<format>Unknown</format>
+		<ed2khash>0a25999594c4fb181c06d5035f11ec6b</ed2khash>
+		<md5>0e3ca5aa178c5baa96eaee56792dee08</md5>
+		<title>Problem Set #2 (Tex)</title>
+		<kzhash>0e3ca5aa178c5baa96eaee56792dee08ccdfffff3a41272d7aecfe8b157a945a01c06df4</kzhash>
+		<sha1>b04de7720feab0ca21a5610ada68a4689d84e218</sha1>
+	</file>
+	<file name="psets/Problem_Set_02_Solutions.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>45f488c70f6961fea8c75a972b7f8176</ed2khash>
+		<md5>86c4307f37d948172da834ac5e69f8f4</md5>
+		<title>Problem Set #2 - Solutions (PDF)</title>
+		<kzhash>86c4307f37d948172da834ac5e69f8f48d2dfeff659f6850100a5b123915b76e1079b6da</kzhash>
+		<sha1>d971f156dc9b9418681c56571b072c7e480c87de</sha1>
+	</file>
+	<file name="psets/Problem_Set_02_Solutions.tex" source="original">
+		<format>Text</format>
+		<ed2khash>6f95a57ac774e35d705e698eea7bfb0b</ed2khash>
+		<md5>056908559a13565ef2724535485a0387</md5>
+		<title>Problem Set #2 - Solutions (Tex)</title>
+		<kzhash>056908559a13565ef2724535485a03870fa2ffff88e58539091a6602feb29c28ceeb9617</kzhash>
+		<sha1>b3381d291cb7ec6369dd51ea7c22fc109895ac49</sha1>
+	</file>
+	<file name="psets/Problem_Set_03.doc" source="original">
+		<format>Text</format>
+		<ed2khash>c78b71d1c38d296059ecc44bfcee30f8</ed2khash>
+		<md5>7f7939d04f076c6722b4ae7545b98212</md5>
+		<title>Problem Set #3 (MS Word)</title>
+		<kzhash>7f7939d04f076c6722b4ae7545b98212ff55ffff9861ad0b69157c899fbc4a23a0606cbe</kzhash>
+		<sha1>49e32dea14f3656a0a7100533303d54174a0ce90</sha1>
+	</file>
+	<file name="psets/Problem_Set_03.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>a2e3228f133af583a3a09e20d557449a</ed2khash>
+		<md5>08e58837d9ba65b2eb007ab64287a2a4</md5>
+		<title>Problem Set #3 (PDF)</title>
+		<kzhash>08e58837d9ba65b2eb007ab64287a2a4bce3ffff2916ba61d910117a4926bfb8777b1a40</kzhash>
+		<sha1>645acb47bc16b90314582a953c9c38fea8b8b534</sha1>
+	</file>
+	<file name="psets/Problem_Set_03.tex" source="original">
+		<format>Unknown</format>
+		<ed2khash>642254ca280a5e15f6f0f8284244f6de</ed2khash>
+		<md5>d9517bb95b43c0d2573fb6e234391880</md5>
+		<title>Problem Set #3 (Tex)</title>
+		<kzhash>d9517bb95b43c0d2573fb6e234391880b7e3ffff27ef32de402e9359d2b25a4ea860465b</kzhash>
+		<sha1>6f8a27e862e529124a5bc0efd2a9c4bfd06dd277</sha1>
+	</file>
+	<file name="psets/Problem_Set_03_Solutions.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>7ed0583b93444bb49febbf3907419fd9</ed2khash>
+		<md5>860f2a0196a19cfb92fc9f9f3686e294</md5>
+		<title>Problem Set #3 - Solutions (PDF)</title>
+		<kzhash>860f2a0196a19cfb92fc9f9f3686e2944cd1feff04a62d51dc8adf501f858bf450b0ba45</kzhash>
+		<sha1>51bcea2fd5faf1692994418a3c62ebc32204644f</sha1>
+	</file>
+	<file name="psets/Problem_Set_03_Solutions.tex" source="original">
+		<format>Unknown</format>
+		<ed2khash>001d6696c4f954d08f8cf27d72e0b057</ed2khash>
+		<md5>4db0771160a01ac01ceb93f06b18e115</md5>
+		<title>Problem Set #3 - Solutions (Tex)</title>
+		<kzhash>4db0771160a01ac01ceb93f06b18e11512d8ffffe16d94653f4e43033ea62f69dd3c815a</kzhash>
+		<sha1>697b21d4ca57597ed2fa22ef4c3178aaf7f5552d</sha1>
+	</file>
+	<file name="psets/Problem_Set_03_Solutions_Code.scm" source="original">
+		<format>Unknown</format>
+		<ed2khash>43cee0688ab4044be5202651699a7d3b</ed2khash>
+		<md5>8a7013b6ee921786cb1f0701ee1d0064</md5>
+		<title>Problem Set #3 - Solutions (Scheme)</title>
+		<kzhash>8a7013b6ee921786cb1f0701ee1d006431dbffff3fefa3b48bc4c34f0d400b1038d6244e</kzhash>
+		<sha1>54c18300b75b406cee556b1c0afb4c9521c6d648</sha1>
+	</file>
+	<file name="psets/Problem_Set_04.doc" source="original">
+		<format>Text</format>
+		<ed2khash>873282eb3f0ad9cab68ba23cf51d2ff4</ed2khash>
+		<md5>1445f4a6f7c9a22d1a1f00fd5ab5bc15</md5>
+		<title>Problem Set #4 (MS Word)</title>
+		<kzhash>1445f4a6f7c9a22d1a1f00fd5ab5bc15ff51ffff7d042c42125735fe1457d87d88e46cc6</kzhash>
+		<sha1>bf04d61ff16cb2b28dde5ab3d533e6ddeaa4ef9b</sha1>
+	</file>
+	<file name="psets/Problem_Set_04.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>2b66ce1e24f09807a87160dd4d483018</ed2khash>
+		<md5>e32afb682a3be77af95a6506003a4e0c</md5>
+		<title>Problem Set #4 (PDF)</title>
+		<kzhash>e32afb682a3be77af95a6506003a4e0c43deffffe30d0a42700a01bf0dc1aae5871455e3</kzhash>
+		<sha1>76895e9894c720041f5e2591ea41d06d9856671b</sha1>
+	</file>
+	<file name="psets/Problem_Set_04.tex" source="original">
+		<format>Text</format>
+		<ed2khash>fcc4334687dd0e9e4a7fc72465570c1b</ed2khash>
+		<md5>f34d1a6faf5df0f730b76544455946c4</md5>
+		<title>Problem Set #4 (Tex)</title>
+		<kzhash>f34d1a6faf5df0f730b76544455946c45edcffffd599ba0af732ad22c95020740ffe47ba</kzhash>
+		<sha1>5cc5f7ead52d5e4ca65f8811d5d916348607a50c</sha1>
+	</file>
+	<file name="psets/Problem_Set_04_Plus.doo" source="original">
+		<format>Unknown</format>
+		<ed2khash>0d64c5076730200d6d9f8deccb0ecdd5</ed2khash>
+		<md5>f9deb7706e87157bf9881b5baca5a17c</md5>
+		<title>Problem Set #4 - Plus (Doo)</title>
+		<kzhash>f9deb7706e87157bf9881b5baca5a17cff5fffffbc396014713f359a733328af039d247d</kzhash>
+		<sha1>208ab5fabf81a2c552c52bd70381ed439ce6df41</sha1>
+	</file>
+	<file name="psets/Problem_Set_04_Plus.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>2f0a68555f702e37741e20238c72545f</ed2khash>
+		<md5>10d46ca8d21d79c47d411101bfbe7593</md5>
+		<title>Problem Set #4 - Plus (PDF)</title>
+		<kzhash>10d46ca8d21d79c47d411101bfbe7593ffd6fffffbb3d020c416f5866499c384ab5ebbb9</kzhash>
+		<sha1>be046aabe919e3ed83b2646224b40c43d0b501fc</sha1>
+	</file>
+	<file name="psets/Problem_Set_04_Solutions.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>be3a82621a7ba738ff87ac0924bee23f</ed2khash>
+		<md5>59c8a73ff7a6e31b9d7515afccb28814</md5>
+		<title>Problem Set #4 - Solutions (PDF)</title>
+		<kzhash>59c8a73ff7a6e31b9d7515afccb28814f83afeffe71c5c1743e41ed2a9d8bb4b13e435ad</kzhash>
+		<sha1>4d4ec097d1f1ef8930006d8f2c1f52ec91f7fb0f</sha1>
+	</file>
+	<file name="psets/Problem_Set_04_Solutions.tex" source="original">
+		<format>Text</format>
+		<ed2khash>fc241f901a9b75a123a6b48d39709939</ed2khash>
+		<md5>cbb75eb11ba5a22ca30718de6da96279</md5>
+		<title>Problem Set #4 - Solutions (Tex)</title>
+		<kzhash>cbb75eb11ba5a22ca30718de6da96279759affff8052f3f13c42253079d5619253376daa</kzhash>
+		<sha1>e0a7063ae0e0d8c458b781a139259a4367f9684e</sha1>
+	</file>
+	<file name="psets/Problem_Set_05.doc" source="original">
+		<format>Text</format>
+		<ed2khash>b57b7f46c7855db19c8b7935b4849ce0</ed2khash>
+		<md5>0b599ac8f9a3d041339764ffca417d9b</md5>
+		<title>Problem Set #5 (MS Word)</title>
+		<kzhash>0b599ac8f9a3d041339764ffca417d9bff91ffff1b256c79ee06c1dafdadcfcf4285fb5b</kzhash>
+		<sha1>156dc757c3b5b0bb054180771da0defa07b887bd</sha1>
+	</file>
+	<file name="psets/Problem_Set_05.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>c721e6cb012d07895a8ffc86975addf0</ed2khash>
+		<md5>39c6634e1f38fa889d53826a97291360</md5>
+		<title>Problem Set #5 (PDF)</title>
+		<kzhash>39c6634e1f38fa889d53826a9729136093e0ffff0528dadb55caad5df50fde53df1e34b7</kzhash>
+		<sha1>ba3e2f338f13d1f46f1b322a7be5032602c382ce</sha1>
+	</file>
+	<file name="psets/Problem_Set_05_Solutions.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>b7e6ac99fd656e0380bda6f3b90fe1c9</ed2khash>
+		<md5>760cef5664a293877b574d96e3d30b88</md5>
+		<title>Problem Set #5 - Solutions (PDF)</title>
+		<kzhash>760cef5664a293877b574d96e3d30b8892affeff00287f2d6ad09aa2749bc58a7684eb99</kzhash>
+		<sha1>1117b3eb89c9f1218640fdad520be74116f9e1b8</sha1>
+	</file>
+	<file name="psets/Problem_Set_05_Solutions.tex" source="original">
+		<format>Text</format>
+		<ed2khash>5eb244b6d3a4fc23b5b7924ded79ab2e</ed2khash>
+		<md5>8856b64255fa6d410b7e7145c39af0dc</md5>
+		<title>Problem Set #5 - Solutions (Tex)</title>
+		<kzhash>8856b64255fa6d410b7e7145c39af0dcd3c1ffffe9ae9526a1d0e431159d49ddc2f14570</kzhash>
+		<sha1>b5a84309b6bd534d3851280f342636a1b7579114</sha1>
+	</file>
+	<file name="psets/Problem_Set_05_Solutions_Code.scm" source="original">
+		<format>Unknown</format>
+		<ed2khash>8662c45f5d70ef692946b9e666f4e24a</ed2khash>
+		<md5>d98f7d9bb3bac16dd1539b68ffb6f094</md5>
+		<title>Problem Set #5 - Solutions (Scheme)</title>
+		<kzhash>d98f7d9bb3bac16dd1539b68ffb6f094effdffff5468623c68103b9a6cdf8cb80e9c91b2</kzhash>
+		<sha1>20cc04fe1d5509a4be729675a12e407359e9322c</sha1>
+	</file>
+	<file name="psets/Problem_Set_06.doc" source="original">
+		<format>Unknown</format>
+		<ed2khash>264da1ff2f46550b4c63e4dfaa851370</ed2khash>
+		<md5>95e80b80ea3dac7ab5acb2a6f20b0753</md5>
+		<title>Problem Set #6 (MS Word)</title>
+		<kzhash>95e80b80ea3dac7ab5acb2a6f20b0753ff8fffff8295c8f020253d2df505621555cc61aa</kzhash>
+		<sha1>2858426cac8d64fd9207984827a347ff14edee72</sha1>
+	</file>
+	<file name="psets/Problem_Set_06.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>26b4cfcc22a479add2cc1b93e49008ee</ed2khash>
+		<md5>0970936df673ab779b2bf7c932ab5a91</md5>
+		<title>Problem Set #6 (PDF)</title>
+		<kzhash>0970936df673ab779b2bf7c932ab5a91bee4ffff17a5a7a3d783eb67aff50b2fcd997129</kzhash>
+		<sha1>0070d3a765a6850f9aad3a4b272fb120a3c4559d</sha1>
+	</file>
+	<file name="psets/Problem_Set_06_Solutions_Code.scm" source="original">
+		<format>Unknown</format>
+		<ed2khash>9aba30d42ab4f9bb49e7dfb6243ba8cf</ed2khash>
+		<md5>dbe025291e8143e8983aff8a5854eb97</md5>
+		<title>Problem Set #6 - Solutions (Scheme)</title>
+		<kzhash>dbe025291e8143e8983aff8a5854eb9794ecffff47f04ba3494c29b9babdaffc813c9a40</kzhash>
+		<sha1>73e078285ceb370732f6369170f9a60c9b9e8352</sha1>
+	</file>
+	<file name="psets/Problem_Set_07.doc" source="original">
+		<format>Text</format>
+		<ed2khash>c2ad6bee1e6e74ff49297b63da838047</ed2khash>
+		<md5>397f38d8a0af1cc7a52876213244f842</md5>
+		<title>Problem Set #7 (MS Word)</title>
+		<kzhash>397f38d8a0af1cc7a52876213244f842ff95ffff62aea9240487b482598a6fd677780721</kzhash>
+		<sha1>3bfa7d1ec687b6e3de2e1d6fccdc191d6aa3d5c7</sha1>
+	</file>
+	<file name="psets/Problem_Set_07.pdf" source="original">
+		<format>PDF</format>
+		<ed2khash>0e4e9bdfb4ba626e8d893e6d84abdd77</ed2khash>
+		<md5>101e0a6c206a191b341d813e437e4605</md5>
+		<title>Problem Set #7 (PDF)</title>
+		<kzhash>101e0a6c206a191b341d813e437e4605dde7ffff47e9950ba512b655307fde1bbca2c80c</kzhash>
+		<sha1>ccdfe98714f7fbee73cd24805b0f82a072db37ec</sha1>
+	</file>
+	<file name="psets/Problem_Set_07_Solutions.txt" source="original">
+		<format>Text</format>
+		<ed2khash>9cf0b04b5e85b8d75ad1fe03f9924779</ed2khash>
+		<md5>89f2316110da51d7269a3caeb527e65d</md5>
+		<title>Problem Set #7 - Solutions</title>
+		<kzhash>89f2316110da51d7269a3caeb527e65de5f0ffff6c09fce452a4f7baa251396b9b7e3cd5</kzhash>
+		<sha1>03220f0fe8baf558c5fa5afd333ffbfd4db162fd</sha1>
+	</file>
+	<file name="psets/Problem_Set_07_Solutions_Code.scm" source="original">
+		<format>Unknown</format>
+		<ed2khash>3e9ed5c3699d8269514b2797e3dd4a0e</ed2khash>
+		<md5>5e218db2577e08738841fda293ffa443</md5>
+		<title>Problem Set #7 - Solutions (Scheme)</title>
+		<kzhash>5e218db2577e08738841fda293ffa443ebfaffffaf8d9220d9b25e01b30326c49e9b4202</kzhash>
+		<sha1>ebf425348d367cdac5c25a92c084f579bff062b3</sha1>
+	</file>
+	<file name="misc/Klein/Weiping's Solution.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Klein's Puzzle.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Weiping's adaptive method.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Klein's puzzle origin.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Shyam's solution.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Hall's Theorem Applies.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Shyam's outline.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Shyam's paln.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/DG's puzzle solution.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/bank vault/Klein's Bank vault.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Weiping's Solution.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Klein's Puzzle.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Weiping's adaptive method.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Klein/Klein's puzzle origin.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Shyam's solution.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Hall's Theorem Applies.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Shyam's outline.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/Card trick/Shyam's paln.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/DG's puzzle solution.txt" source="original">
+		<format>Text</format>
+	</file>
+	<file name="misc/bank vault/Klein's Bank vault.txt" source="original">
+		<format>Text</format>
+	</file>
+</files>
+
+
