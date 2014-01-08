@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Point3D", "Point3D\Point3D.csproj", "{160E693B-5FB5-4529-AB42-D5E27C57CD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericListClasses", "GenericListClasses\GenericListClasses.csproj", "{5B933587-E51A-4FAE-832F-CE9A8EC8D023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{A896E93F-A622-4204-8FA6-97B995915EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionAttribute", "VersionAttribute\VersionAttribute.csproj", "{12539B22-BB67-47D0-96C5-E497443CE954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160E693B-5FB5-4529-AB42-D5E27C57CD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160E693B-5FB5-4529-AB42-D5E27C57CD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160E693B-5FB5-4529-AB42-D5E27C57CD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160E693B-5FB5-4529-AB42-D5E27C57CD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B933587-E51A-4FAE-832F-CE9A8EC8D023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B933587-E51A-4FAE-832F-CE9A8EC8D023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B933587-E51A-4FAE-832F-CE9A8EC8D023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B933587-E51A-4FAE-832F-CE9A8EC8D023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A896E93F-A622-4204-8FA6-97B995915EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A896E93F-A622-4204-8FA6-97B995915EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A896E93F-A622-4204-8FA6-97B995915EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A896E93F-A622-4204-8FA6-97B995915EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12539B22-BB67-47D0-96C5-E497443CE954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12539B22-BB67-47D0-96C5-E497443CE954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12539B22-BB67-47D0-96C5-E497443CE954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12539B22-BB67-47D0-96C5-E497443CE954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
