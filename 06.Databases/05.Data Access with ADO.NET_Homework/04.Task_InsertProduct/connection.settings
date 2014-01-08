@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="_04.Task_InsertProduct" GeneratedClassName="connection">
+  <Profiles />
+  <Settings>
+    <Setting Name="dbConnectionStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=.; Database=Northwind; Integrated Security=true</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

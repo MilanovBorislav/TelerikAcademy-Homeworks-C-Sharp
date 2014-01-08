@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<persons>
+  <person>
+    <name>Pesho Peshev</name>
+    <address>Bulgaria, Sofia</address>
+    <phone>+359888789654</phone>
+  </person>
+  <person>
+    <name>Gosho Goshev</name>
+    <address>Bulgaria, Sofia</address>
+    <phone>+359997455654</phone>
+  </person>
+</persons>

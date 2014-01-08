@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ExtractingArtists", "02.ExtractingArtists\02.ExtractingArtists.csproj", "{27543984-C524-4936-8E22-1C5E44C1FECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExtractingArtistsXPath", "03.ExtractingArtistsXPath\03.ExtractingArtistsXPath.csproj", "{F7289C8F-CFD3-4A1B-99D7-813AEF1C9F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DeleteAlbums", "04.DeleteAlbums\04.DeleteAlbums.csproj", "{83D34C1A-5AA3-4586-A40D-EAFEC9CE2D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ExtractSongs", "05.ExtractSongs\05.ExtractSongs.csproj", "{20A1681E-3F4F-4CD4-AC10-B9F9AE7375F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ExtractSongLinq", "ExtractSongLinq\06.ExtractSongLinq.csproj", "{1C28605D-0006-406F-9BE1-A97724414221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CreateXML", "07.CreateXML\07.CreateXML.csproj", "{B1425191-8AEE-4A3D-B2FD-6C30CDBD080A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Album", "09.Album\08.Album.csproj", "{4A1C3AED-C0F0-4967-A092-4421356B121A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.TraverseDirectories", "10.TraverseDirectories.\09.TraverseDirectories.csproj", "{1B6D1BCE-AA8E-4306-9DDB-F5DC8BF47602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.TraverseDirectories", "10.TraverseDirectoriesXPath\10.TraverseDirectories.csproj", "{3BA7D260-C4CD-4A1D-BAFA-6F1F0B6202D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ExtractPriceAlbums", "11.ExtractPriceAlbums\11.ExtractPriceAlbums.csproj", "{A2A399AC-019D-4C95-99F9-B891D5222354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ExtractPriceAlbumsLINQ", "12.ExtractPriceAlbumsXPath\12.ExtractPriceAlbumsLINQ.csproj", "{CA6F1F86-69BA-4508-B499-1648ACFFCBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27543984-C524-4936-8E22-1C5E44C1FECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27543984-C524-4936-8E22-1C5E44C1FECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27543984-C524-4936-8E22-1C5E44C1FECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27543984-C524-4936-8E22-1C5E44C1FECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7289C8F-CFD3-4A1B-99D7-813AEF1C9F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7289C8F-CFD3-4A1B-99D7-813AEF1C9F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7289C8F-CFD3-4A1B-99D7-813AEF1C9F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7289C8F-CFD3-4A1B-99D7-813AEF1C9F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D34C1A-5AA3-4586-A40D-EAFEC9CE2D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D34C1A-5AA3-4586-A40D-EAFEC9CE2D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D34C1A-5AA3-4586-A40D-EAFEC9CE2D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D34C1A-5AA3-4586-A40D-EAFEC9CE2D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A1681E-3F4F-4CD4-AC10-B9F9AE7375F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A1681E-3F4F-4CD4-AC10-B9F9AE7375F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A1681E-3F4F-4CD4-AC10-B9F9AE7375F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A1681E-3F4F-4CD4-AC10-B9F9AE7375F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C28605D-0006-406F-9BE1-A97724414221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C28605D-0006-406F-9BE1-A97724414221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C28605D-0006-406F-9BE1-A97724414221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C28605D-0006-406F-9BE1-A97724414221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1425191-8AEE-4A3D-B2FD-6C30CDBD080A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1425191-8AEE-4A3D-B2FD-6C30CDBD080A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1425191-8AEE-4A3D-B2FD-6C30CDBD080A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1425191-8AEE-4A3D-B2FD-6C30CDBD080A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1C3AED-C0F0-4967-A092-4421356B121A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1C3AED-C0F0-4967-A092-4421356B121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1C3AED-C0F0-4967-A092-4421356B121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1C3AED-C0F0-4967-A092-4421356B121A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6D1BCE-AA8E-4306-9DDB-F5DC8BF47602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6D1BCE-AA8E-4306-9DDB-F5DC8BF47602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6D1BCE-AA8E-4306-9DDB-F5DC8BF47602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6D1BCE-AA8E-4306-9DDB-F5DC8BF47602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA7D260-C4CD-4A1D-BAFA-6F1F0B6202D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA7D260-C4CD-4A1D-BAFA-6F1F0B6202D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA7D260-C4CD-4A1D-BAFA-6F1F0B6202D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA7D260-C4CD-4A1D-BAFA-6F1F0B6202D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A399AC-019D-4C95-99F9-B891D5222354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A399AC-019D-4C95-99F9-B891D5222354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A399AC-019D-4C95-99F9-B891D5222354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A399AC-019D-4C95-99F9-B891D5222354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6F1F86-69BA-4508-B499-1648ACFFCBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6F1F86-69BA-4508-B499-1648ACFFCBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6F1F86-69BA-4508-B499-1648ACFFCBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6F1F86-69BA-4508-B499-1648ACFFCBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VersionFieldUsingAttrib = True
+		FetchGroupUsingAttrib = True
+		IndexUsingAttrib = False
+		ShowOldMenu = False
+	EndGlobalSection
+EndGlobal

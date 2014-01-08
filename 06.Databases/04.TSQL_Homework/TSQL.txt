@@ -1,0 +1,125 @@
+1.Task
+CREATE TABLE Persons
+(
+PersonId int
+IDENTITY(1, 1)
+PRIMARY KEY CLUSTERED,
+FirstName nvarchar(20),
+LastName nvarchar(20),
+SSN nvarchar(10)
+CONSTRAINT SSN CHECK (LEN(SSN) = 10)
+)
+
+CREATE TABLE Accounts
+(
+AccountId int
+IDENTITY(1, 1)
+PRIMARY KEY CLUSTERED,
+PersonId int
+FOREIGN KEY REFERENCES Persons(PersonId),
+Balance money
+)
+
+INSERT INTO Persons
+VALUES ('Ivan', 'Ivanov', '1234567890'),
+('Petar', 'Petrov', '1234567000')
+
+INSERT INTO Accounts
+VALUES (5, 1000.54),
+(6, 225.99)
+
+CREATE PROCEDURE uspPersonsFullNames
+AS
+SELECT FirstName + ' ' + LastName
+FROM Persons
+GO
+
+EXEC uspPersonsFullNames
+-----------------------------------------------------
+2.Task
+
+CREATE PROCEDURE uspBalanceHigherThan @balance money
+AS
+SELECT * FROM Persons pers
+JOIN Accounts acc
+ON pers.PersonId = acc.PersonId
+WHERE acc.Balance > @balance
+GO
+
+EXEC uspBalanceHigherThan 300
+-----------------------------------------------------
+3.Task
+
+CREATE PROCEDURE uspPersonInterest @sum money, 
+@yearlyInterest float, @months int
+AS
+SELECT @sum * @yearlyInterest / 12 * @months
+
+EXEC uspPersonInterest @sum = 100, @yearlyInterest = 1.10, @months = 1
+-----------------------------------------------------
+4.Task
+
+CREATE PROCEDURE uspMonthInterest @accountId int, @interest float
+AS
+DECLARE @accBalance money
+SELECT @accBalance = acc.Balance
+FROM Accounts acc
+WHERE @accountId = acc.AccountId
+
+EXEC uspPersonInterest @sum = @accBalance, 
+@yearlyInterest = @interest, @months = 1
+
+EXEC uspMonthInterest @accountId = 1, @interest = 1.10
+-----------------------------------------------------
+5.Task
+
+CREATE PROCEDURE uspWithdrawMoney @accountId int, @money money
+AS
+BEGIN TRAN
+UPDATE Accounts
+SET Balance -= @money
+WHERE AccountId = @accountId
+COMMIT
+
+CREATE PROCEDURE uspDepositMoney @accountId int, @money money
+AS
+BEGIN TRAN
+UPDATE Accounts
+SET Balance += @money
+WHERE AccountId = @accountId
+COMMIT
+
+
+EXEC uspWithdrawMoney @accountId = 1, @money = 100
+EXEC uspDepositMoney @accountId = 1, @money = 100
+
+-----------------------------------------------------
+6. Task
+
+CREATE TABLE Logs
+(
+LogId int
+PRIMARY KEY CLUSTERED
+IDENTITY(1, 1),
+AccountId int
+FOREIGN KEY REFERENCES Accounts(AccountId),
+OldSum money,
+NewSum money
+)
+
+CREATE TRIGGER LogTransaction
+ON Accounts
+AFTER UPDATE
+AS
+IF EXISTS(SELECT * FROM DELETED)
+BEGIN
+
+DECLARE @personId int, @balanceBefore money, @balanceAfter money
+SELECT @personId = del.AccountId, @balanceBefore = del.Balance FROM deleted del
+SELECT @balanceAfter = ins.Balance FROM inserted ins
+
+INSERT INTO Logs
+VALUES (@personId, @balanceBefore, @balanceAfter)
+END
+
+EXEC uspWithdrawMoney 1, 100

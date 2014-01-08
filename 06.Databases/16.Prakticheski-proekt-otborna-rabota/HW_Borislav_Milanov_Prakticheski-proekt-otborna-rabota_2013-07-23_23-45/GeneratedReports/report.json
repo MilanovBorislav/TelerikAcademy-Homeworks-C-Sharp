@@ -1,0 +1,363 @@
+[{
+  "ProductId" : 1,
+ "ProductName" : "BeerZagorka",
+ "VendorName" : "Zagorka",
+ "Quantity" : "673.00",
+ "Sum" : "609.24" 
+},
+ {
+  "ProductId" : 2,
+ "ProductName" : "VodkaTargovishte",
+ "VendorName" : "Targovishte",
+ "Quantity" : "144.00",
+ "Sum" : "1155.90" 
+},
+ {
+  "ProductId" : 3,
+ "ProductName" : "Beer Becks",
+ "VendorName" : "Zagorka",
+ "Quantity" : "236.00",
+ "Sum" : "262.95" 
+},
+ {
+  "ProductId" : 4,
+ "ProductName" : "Milka",
+ "VendorName" : "Nestle Sofia",
+ "Quantity" : "47.00",
+ "Sum" : "135.70" 
+},
+ {
+  "ProductId" : 5,
+ "ProductName" : "Zayo Bayo Onion",
+ "VendorName" : "Zayo Bayo",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 6,
+ "ProductName" : "Chicken Sausage",
+ "VendorName" : "Bravo",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 7,
+ "ProductName" : "Vinkel Waffle Cherry",
+ "VendorName" : "Vinkel",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 8,
+ "ProductName" : "Zayo Bayo Butter",
+ "VendorName" : "Zayo Bayo",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 9,
+ "ProductName" : "Zayo Bayo Cinnamon",
+ "VendorName" : "Zayo Bayo",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 10,
+ "ProductName" : "Pork Sausage",
+ "VendorName" : "Bravo",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 11,
+ "ProductName" : "Turkey Sausage",
+ "VendorName" : "Bravo",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 12,
+ "ProductName" : "Vinkel Waffle Caramel",
+ "VendorName" : "Vinkel",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 13,
+ "ProductName" : "Vinkel Waffle Peanuts",
+ "VendorName" : "Vinkel",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 14,
+ "ProductName" : "Svoge Natural",
+ "VendorName" : "Kraft",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 15,
+ "ProductName" : "Svoge Hazelnut",
+ "VendorName" : "Kraft",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 16,
+ "ProductName" : "Absolut Classic",
+ "VendorName" : "Absolut",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 17,
+ "ProductName" : "Cheese",
+ "VendorName" : "Parshevica",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 18,
+ "ProductName" : "Absolut Lemon",
+ "VendorName" : "Absolut",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 19,
+ "ProductName" : "Balkan Cheese",
+ "VendorName" : "Parshevica",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 20,
+ "ProductName" : "French Cheese",
+ "VendorName" : "Parshevica",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 21,
+ "ProductName" : "Mura Hazelnut",
+ "VendorName" : "Absolut",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 22,
+ "ProductName" : "Waffle Oriahovica",
+ "VendorName" : "Zaharni Zavodi",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 23,
+ "ProductName" : "Mura Peanut",
+ "VendorName" : "Absolut",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 24,
+ "ProductName" : "Chicken meat",
+ "VendorName" : "Tandem",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 25,
+ "ProductName" : "Turkey meat",
+ "VendorName" : "Tandem",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 26,
+ "ProductName" : "Pork meat",
+ "VendorName" : "Tandem",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 27,
+ "ProductName" : "Cherry lollipop",
+ "VendorName" : "Lollipop",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 28,
+ "ProductName" : "Cheese with ham",
+ "VendorName" : "President",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 29,
+ "ProductName" : "Banana lollipop",
+ "VendorName" : "Lollipop",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 30,
+ "ProductName" : "Apple lollipop",
+ "VendorName" : "Lollipop",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 31,
+ "ProductName" : "Cheese Calssic",
+ "VendorName" : "President",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 32,
+ "ProductName" : "Bruscetti Classic",
+ "VendorName" : "Maretti",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 33,
+ "ProductName" : "Bruscetti Mushrooms",
+ "VendorName" : "Maretti",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 34,
+ "ProductName" : "Varna Waffle",
+ "VendorName" : "Varna Sweet",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 35,
+ "ProductName" : "Varna Waffle Peanuts",
+ "VendorName" : "Varna Sweet",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 36,
+ "ProductName" : "Vodka Targovishte Special",
+ "VendorName" : "Targovishte",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 37,
+ "ProductName" : "Zagorka Fusion",
+ "VendorName" : "Zagorka",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 38,
+ "ProductName" : "Zagorka Special",
+ "VendorName" : "Zagorka",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 39,
+ "ProductName" : "Milka Hazelnuts",
+ "VendorName" : "Nestle Sofia",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 40,
+ "ProductName" : "Milka White",
+ "VendorName" : "Nestle Sofia",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 41,
+ "ProductName" : "Kamenitsa Classinc",
+ "VendorName" : "Kamenitsa",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 42,
+ "ProductName" : "Kamenitsa Hard",
+ "VendorName" : "Kamenitsa",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 43,
+ "ProductName" : "Kamenitsa Lemon",
+ "VendorName" : "Kamenitsa",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 44,
+ "ProductName" : "Victory White",
+ "VendorName" : "Bulgartabak",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 45,
+ "ProductName" : "Victory Black",
+ "VendorName" : "Bulgartabak",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 46,
+ "ProductName" : "MM",
+ "VendorName" : "Bulgartabak",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 47,
+ "ProductName" : "Prestige",
+ "VendorName" : "Bulgartabak",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 48,
+ "ProductName" : "Chio Salt",
+ "VendorName" : "Chio",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 49,
+ "ProductName" : "Chio Chicken",
+ "VendorName" : "Chio",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 50,
+ "ProductName" : "Chio Pepper",
+ "VendorName" : "Chio",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 51,
+ "ProductName" : "Chio Extra Salt",
+ "VendorName" : "Chio",
+ "Quantity" : "0",
+ "Sum" : "0" 
+},
+ {
+  "ProductId" : 52,
+ "ProductName" : "Chio Normal",
+ "VendorName" : "Chio",
+ "Quantity" : "0",
+ "Sum" : "0" }]
