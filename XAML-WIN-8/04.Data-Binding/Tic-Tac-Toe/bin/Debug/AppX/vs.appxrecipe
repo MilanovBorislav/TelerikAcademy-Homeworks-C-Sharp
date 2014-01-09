@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>COMPUTER</Machine>
+    <WindowsUser>borislav</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>A01F6918B5B1717C12CEC8BAA049BF32496DB0CF56A18C6FCFC5FD6DA00506EA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c682088a-cb44-4831-b475-6cf281986f49_1.0.0.0_neutral__595ynfskek0h6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c682088a-cb44-4831-b475-6cf281986f49_595ynfskek0h6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c682088a-cb44-4831-b475-6cf281986f49</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=borislav</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-25T18:08:31.906</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\TicTacToe.exe">
+      <PackagePath>TicTacToe.exe</PackagePath>
+      <Modified>2013-09-25T18:09:22.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\TicTacToe.pdb">
+      <PackagePath>TicTacToe.pdb</PackagePath>
+      <Modified>2013-09-25T18:09:22.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-09-25T09:57:00.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T13:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-09-25T17:55:21.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\documents\visual studio 2012\Projects\Data-Binding-Homework\Tic-Tac-Toe\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-25T08:29:01.704</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

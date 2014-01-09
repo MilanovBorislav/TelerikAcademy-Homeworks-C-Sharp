@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IVO</Machine>
+    <WindowsUser>Ivailo</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>653B3140EFFAF474A48F7155E6A4C9B2B834198F5E7C08467ACD13BB82FAFFF4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3befa1ad-a9e1-400c-92a6-69945cae98e6_1.0.0.0_neutral__z7tp5tq9k6q38</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3befa1ad-a9e1-400c-92a6-69945cae98e6_z7tp5tq9k6q38!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3befa1ad-a9e1-400c-92a6-69945cae98e6</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ivailo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-20T12:49:04.363</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\PaintRT.exe">
+      <PackagePath>PaintRT.exe</PackagePath>
+      <Modified>2013-09-20T13:54:40.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\PaintRT.pdb">
+      <PackagePath>PaintRT.pdb</PackagePath>
+      <Modified>2013-09-20T13:54:40.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-09-19T18:28:07.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T13:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-09-20T12:35:33.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivailo\Documents\Visual Studio 2012\Projects\PaintRT\PaintRT\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-19T18:45:55.141</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>COMPUTER</Machine>
+    <WindowsUser>borislav</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>77343FFE2E8BF51B12BE1015CA790CFC126313290287EC1017F0847535AC9256</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f8fa930d-8e62-4609-8643-0d65e54b82ef_1.0.0.0_neutral__595ynfskek0h6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f8fa930d-8e62-4609-8643-0d65e54b82ef_595ynfskek0h6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f8fa930d-8e62-4609-8643-0d65e54b82ef</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=borislav</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-19T14:07:31.700</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\CalculatePrimesAsync.exe">
+      <PackagePath>CalculatePrimesAsync.exe</PackagePath>
+      <Modified>2013-09-20T13:57:34.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\CalculatePrimesAsync.pdb">
+      <PackagePath>CalculatePrimesAsync.pdb</PackagePath>
+      <Modified>2013-09-20T13:57:34.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-09-19T08:57:54.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T13:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-09-20T11:35:54.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\borislav\Desktop\Asynchronous-Programming-Homework\CalculatePrimesAsync\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-19T14:04:53.596</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

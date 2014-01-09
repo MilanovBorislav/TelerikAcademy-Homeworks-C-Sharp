@@ -1,0 +1,121 @@
+﻿<Page
+    x:Class="CalculatePrimesAsync.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalculatePrimesAsync"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid  Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Name="StackPanelName">
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="300"/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Row="0" Grid.ColumnSpan="3">
+                    <Border.Background>
+                        <SolidColorBrush Color="#537374">
+                        </SolidColorBrush>
+                    </Border.Background>
+                </Border>
+                <Border Grid.Row="1" Grid.ColumnSpan="3">
+                    <Border.Background>
+                        <SolidColorBrush Color="#F9BD7F">
+                        </SolidColorBrush>
+                    </Border.Background>
+                </Border>
+                <Border Grid.Row="2" Grid.ColumnSpan="3">
+                    <Border.Background>
+                        <SolidColorBrush Color="#EBD7A5">
+                        </SolidColorBrush>
+                    </Border.Background>
+                </Border>
+                <Border Grid.Row="3" Grid.ColumnSpan="3">
+                    <Border.Background>
+                        <SolidColorBrush Color="#ADC9A5">
+                        </SolidColorBrush>
+                    </Border.Background>
+                </Border>
+
+                <TextBox Name="TextBoxRangeStartFirst" Width="200" Height="40" Grid.Row="0" Grid.Column="0"/>
+                <TextBox Name="TextBoxRangeEndFirst" Width="200" Height="40" Grid.Row="0" Grid.Column="1"/>
+                <Button Click="CalculatePrimesClickFirst"
+                        Content="Calculate"
+                        HorizontalAlignment="Center"
+                        Width="200" Height="40" 
+                        Grid.Row="0" Grid.Column="2"></Button>
+
+                <TextBox Name="TextBoxRangeStartSecond" Width="200" Height="40" Grid.Row="1" Grid.Column="0"/>
+                <TextBox Name="TextBoxRangeEndSecond" Width="200" Height="40" Grid.Row="1" Grid.Column="1"/>
+                <Button Click="CalculatePrimesClickSecond"
+                        Content="Calculate" 
+                        HorizontalAlignment="Center" 
+                        Width="200" Height="40" 
+                        Grid.Row="1" Grid.Column="2"/>
+   
+                <TextBox Name="TextBoxRangeStartThird" Width="200" Height="40" Grid.Row="2" Grid.Column="0"></TextBox>
+                <TextBox Name="TextBoxRangeEndThird" Width="200" Height="40" Grid.Row="2" Grid.Column="1"></TextBox>
+                <Button Click="CalculatePrimesClickThird"
+                        Content="Calculate"
+                        HorizontalAlignment="Center"
+                        Width="200" Height="40" 
+                        Grid.Row="2" Grid.Column="2"/>
+   
+                <TextBox Name="TextBoxRangeStartFourth" Width="200" Height="40" Grid.Row="3" Grid.Column="0"></TextBox>
+                <TextBox Name="TextBoxRangeEndFourth" Width="200" Height="40" Grid.Row="3" Grid.Column="1"></TextBox>
+                <Button Click="CalculatePrimesClickFourth"
+                        Content="Calculate" HorizontalAlignment="Center"
+                        Width="200" Height="40" 
+                        Grid.Row="3" Grid.Column="2"/>
+         
+            </Grid>
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition  Width="200"/>
+                    <ColumnDefinition  Width="200"/>
+                    <ColumnDefinition  Width="200"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Margin="6 6 6 6" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                           ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                            Background="#537374"
+                           Grid.Row="0" Grid.Column="0" Name="PrimesFirst" Height="500" TextWrapping="Wrap"></TextBox>
+
+                <TextBox Margin="6 6 6 6" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                           ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                            Background="#F9BD7F"
+                           Grid.Row="0" Grid.Column="1" Name="PrimesSecond" Height="500" TextWrapping="Wrap"></TextBox>
+
+                <TextBox Margin="6 6 6 6" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                           ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                            Background="#EBD7A5"
+                            Grid.Row="0" Grid.Column="2" Name="PrimesThird" Height="500" TextWrapping="Wrap"></TextBox>
+
+                <TextBox Margin="6 6 6 6" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                           ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                            Background="#ADC9A5"
+                            Grid.Row="0" Grid.Column="3" Name="PrimesFourth" Height="500" TextWrapping="Wrap"></TextBox>
+            </Grid>
+
+        </StackPanel>
+
+
+    </Grid>
+
+</Page>
+<!--   font-family-color    #5C9E99 -->
