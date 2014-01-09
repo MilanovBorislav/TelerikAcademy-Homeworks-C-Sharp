@@ -1,0 +1,5 @@
+D:\SVN\ComplexBinding\CountriesViewModels\obj\Debug\CountriesViewModels.csprojResolveAssemblyReference.cache
+D:\SVN\ComplexBinding\CountriesViewModels\bin\Debug\CountriesViewModels.dll
+D:\SVN\ComplexBinding\CountriesViewModels\bin\Debug\CountriesViewModels.pdb
+D:\SVN\ComplexBinding\CountriesViewModels\obj\Debug\CountriesViewModels.dll
+D:\SVN\ComplexBinding\CountriesViewModels\obj\Debug\CountriesViewModels.pdb

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+  <country>
+    <name>Bulgaria</name>
+    <language>Bulgarian</language>
+    <flag>..\..\..\CountriesViewModels\Images\Bulgaria.jpg</flag>
+    <towns>  
+      <town>
+        <name>Sofia</name>
+        <population>300000</population>
+      </town>
+    
+      <town>
+        <name>Plovdiv</name>
+        <population>338,153</population>
+      </town>
+      
+    </towns>
+  </country>
+  
+<country>
+    <name>England</name>
+    <language>English</language>
+    <flag>..\..\..\CountriesViewModels\Images\England.jpg</flag>
+    <towns>
+      <town>
+        <name>London</name>
+        <population>8.174000</population>
+      </town>
+    
+      <town>
+        <name>Manchester</name>
+        <population>512000</population>
+      </town>
+    </towns>
+  </country>
+  
+<country>
+    <name>Germany </name>
+    <language>German</language>
+    <flag>..\..\..\CountriesViewModels\Images\Germany.jpg</flag>
+    <towns>
+      <town>
+        <name>Berlin</name>
+        <population>3520000</population>
+      </town>
+    </towns>
+  </country>
+  
+<country>
+    <name>Austria</name>
+    <language>German</language>
+    <flag>..\..\..\CountriesViewModels\Images\Austria.jpg</flag>
+    <towns>
+      <town>
+        <name>Vienna</name>
+        <population>1731000</population>
+      </town>
+    </towns>
+  </country>
+  
+<country>
+    <name>Spain</name>
+    <language>Spanish</language>
+    <flag>..\..\..\CountriesViewModels\Images\Spain.jpg</flag>
+    <towns>
+      <town>
+        <name>Madrid</name>
+        <population>3234000</population>
+      </town>
+    <town>
+        <name>Barcelona</name>
+        <population>1621000</population>
+      </town>
+    </towns>
+  </country>
+  
+<country>
+    <name>France</name>
+    <language>French</language>
+    <flag>..\..\..\CountriesViewModels\Images\France.jpeg</flag>
+    <towns>
+      <town>
+        <name>Paris</name>
+        <population>2234000</population>
+      </town>
+    <town>
+        <name>Bordeaux</name>
+        <population>235891</population>
+      </town>
+    </towns>
+  </country>
+
+  <country>
+    <name>Denmark</name>
+    <language>Danish</language>
+    <flag>..\..\..\CountriesViewModels\Images\Denmark.jpg</flag>
+    <towns>
+      <town>
+        <name>Copenhagen</name>
+        <population>528208</population>
+      </town>
+    <town>
+        <name>Aarhus</name>
+        <population>242914</population>
+      </town>
+    </towns>
+  </country>
+
+</countries>

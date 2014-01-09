@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<stores>
+  <store>
+    <name>Superstore</name>
+    <phones>
+      <phone>
+        <vendor>Samsung</vendor>
+        <model>Galaxy S4</model>
+        <year>2013</year>
+        <image>..\..\Images\samsung-s4.jpg</image>
+        <os>
+          <name>Android</name>
+          <version>Jelly Bean</version>
+          <manufacturer>Google Inc.</manufacturer>
+        </os>
+        <features>
+          <display>OLED</display>
+          <displaySize>5</displaySize>
+        </features>
+      </phone>
+      <phone>
+        <vendor>HTC</vendor>
+        <model>WindowsPhone 8X</model>
+        <year>2013</year>
+        <image>..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>WindowsPhone</name>
+          <version>8</version>
+          <manufacturer>Microsoft</manufacturer>
+        </os>
+        <features>
+          <display>Super LCD 2</display>
+          <displaySize>4.3</displaySize>
+        </features>
+      </phone>
+    </phones>
+  </store>
+  <store>
+    <name>Megastore</name>
+    <phones>
+      <phone>
+        <vendor>Apple</vendor>
+        <model>iPhone 5</model>
+        <year>2012</year>
+        <image>..\..\Images\apple-iphone-5.jpeg</image>
+        <os>
+          <name>iOS</name>
+          <version>6</version>
+          <manufacturer>Apple</manufacturer>
+        </os>
+        <features>
+          <display>Retina display</display>
+          <displaySize>4</displaySize>
+        </features>
+      </phone>
+      <phone>
+        <vendor>HTC</vendor>
+        <model>One</model>
+        <year>2014</year>
+        <image>..\..\Images\HTC One_Silver_3V.jpg</image>
+        <os>
+          <name>Android</name>
+          <version>Jelly bean</version>
+          <manufacturer>Google Inc.</manufacturer>
+        </os>
+        <features>
+          <display>Super LCD 3</display>
+          <displaySize>4.7</displaySize>
+        </features>
+      </phone>
+    </phones>
+  </store>
+</stores>
